@@ -1,0 +1,87 @@
+{
+  "color": {
+    "ink": "#0F1B24",
+    "ink-2": "#4A5A66",
+    "line": "#DCE3E8",
+    "surface": "#F2F5F7",
+    "bg": "#FFFFFF",
+    "accent": "#0B6E8A",
+    "accent-strong": "#08506A",
+    "accent-soft": "#B9D9E3",
+    "accent-tint": "#E3F0F4",
+    "accent-on-dark": "#2BA3C4",
+    "note": "#8A4B0F",
+    "note-bg": "#FBF1E6",
+    "na-stripe-a": "#EEF2F4",
+    "na-stripe-b": "#C4CFD6"
+  },
+  "font": {
+    "sans": "'Public Sans', system-ui, sans-serif",
+    "mono": "'IBM Plex Mono', ui-monospace, monospace"
+  },
+  "type": {
+    "display": {
+      "size": 40,
+      "lineHeight": 1.15,
+      "weight": 800
+    },
+    "h1": {
+      "size": 32,
+      "lineHeight": 1.2,
+      "weight": 800
+    },
+    "h2": {
+      "size": 24,
+      "lineHeight": 1.25,
+      "weight": 700
+    },
+    "h3": {
+      "size": 19,
+      "lineHeight": 1.3,
+      "weight": 700
+    },
+    "kpi": {
+      "size": 30,
+      "lineHeight": 1.1,
+      "weight": 800
+    },
+    "body": {
+      "size": 16,
+      "lineHeight": 1.5,
+      "weight": 400
+    },
+    "small": {
+      "size": 14,
+      "lineHeight": 1.45,
+      "weight": 400
+    },
+    "mono": {
+      "size": 13,
+      "lineHeight": 1.4,
+      "weight": 400,
+      "family": "mono"
+    }
+  },
+  "space": {
+    "1": 4,
+    "2": 8,
+    "3": 12,
+    "4": 16,
+    "6": 24,
+    "8": 32,
+    "12": 48,
+    "16": 64
+  },
+  "radius": {
+    "control": 6,
+    "card": 8,
+    "pill": 999
+  },
+  "layout": {
+    "maxWidth": 1200,
+    "gutter": 24,
+    "gutterMobile": 16,
+    "columns": 12
+  },
+  "touchTarget": 44
+}

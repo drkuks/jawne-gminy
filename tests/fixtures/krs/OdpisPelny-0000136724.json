@@ -1,0 +1,3280 @@
+{
+  "odpis": {
+    "rodzaj": "Pełny",
+    "naglowekP": {
+      "rejestr": "RejP",
+      "numerKRS": "0000136724",
+      "dataCzasOdpisu": "30.10.2026 15:40:51",
+      "stanZDnia": "23.10.2026",
+      "wpis": [
+        {
+          "numerWpisu": 1,
+          "opis": "REJESTRACJA W KRAJOWYM REJESTRZE SĄDOWYM",
+          "dataWpisu": "24.10.2002",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/9971/02/202",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 2,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "11.04.2003",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/2051/03/157",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 3,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "02.06.2003",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/3403/03/829",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 4,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "13.05.2004",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/6627/04/493",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 5,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "16.06.2005",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/8203/05/988",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 6,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "23.06.2006",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/10071/06/673",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 7,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "12.03.2007",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/3048/07/726",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 8,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "12.07.2007",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/11255/07/911",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 9,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "12.06.2008",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/8999/08/999",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 10,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "19.03.2009",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/18615/08/531",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 11,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "11.09.2009",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/10855/09/452",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 12,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "11.01.2010",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/18689/09/385",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 13,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "29.04.2010",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/5934/10/832",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 14,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "13.01.2011",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/22128/10/108",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 15,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "19.05.2011",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/8650/11/783",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 16,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "01.06.2012",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.VI NS-REJ.KRS/10887/12/197",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY  DLA WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, VI WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 17,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "26.04.2013",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/7303/13/13",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA  WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 18,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "18.06.2013",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/11817/13/24",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA  WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 19,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "26.08.2013",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/16423/13/692",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA  WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 20,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "06.12.2013",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/23332/13/305",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA  WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 21,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "03.07.2014",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/12098/14/259",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA  WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 22,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "17.07.2015",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/12392/15/159",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA  WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 23,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "11.04.2016",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/5723/16/926",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA  WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 24,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "18.08.2017",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/17797/17/929",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA  WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 25,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "10.05.2018",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/53204/18/79",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 26,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "10.05.2018",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/53205/18/480",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 27,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "10.05.2018",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/53206/18/881",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 28,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "10.05.2018",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/53207/18/282",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 29,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "25.01.2019",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/33071/18/907",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA  WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 30,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "04.06.2019",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/118096/19/90",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 31,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "04.06.2019",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/118096/19/491",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 32,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "04.06.2019",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/118096/19/892",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 33,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "04.06.2019",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/118096/19/293",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 34,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "20.03.2020",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/192753/20/316",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 35,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "20.03.2020",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/192763/20/21",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 36,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "20.03.2020",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/192769/20/739",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 37,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "20.03.2020",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/192770/20/154",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 38,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "11.05.2020",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/6812/20/359",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA  WROCŁAWIA-FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 39,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "01.04.2021",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/284459/21/77",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 40,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "01.04.2021",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/284459/21/478",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 41,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "01.04.2021",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/284459/21/879",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 42,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "01.04.2021",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/284459/21/280",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 43,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "19.10.2021",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/17464/21/443",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA WROCŁAWIA FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 44,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "05.07.2022",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/8472/22/29",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA WROCŁAWIA FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 45,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "06.07.2022",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/402119/22/492",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 46,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "06.07.2022",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/402120/22/95",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 47,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "06.07.2022",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/402120/22/496",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 48,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "06.07.2022",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/402120/22/897",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 49,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "24.01.2023",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/1367/23/118",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA WROCŁAWIA FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 50,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "15.05.2023",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/487337/23/990",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 51,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "15.05.2023",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/487337/23/391",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 52,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "15.05.2023",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/487337/23/792",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 53,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "15.05.2023",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/487338/23/504",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 54,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "03.06.2024",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/608436/24/783",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 55,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "03.06.2024",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/608436/24/184",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 56,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "03.06.2024",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/608436/24/585",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 57,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "03.06.2024",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/608436/24/986",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 58,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "03.01.2025",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/1367/23/118/ADE",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 59,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "16.05.2025",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/720044/25/151",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 60,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "16.05.2025",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/720044/25/552",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 61,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "16.05.2025",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/720044/25/953",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 62,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "16.05.2025",
+          "sygnaturaAktSprawyDotyczacejWpisu": "RDF/720044/25/354",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 63,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "17.11.2025",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/18822/25/844",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA WROCŁAWIA FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 64,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "02.01.2026",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/18822/25/844/ADE",
+          "oznaczenieSaduDokonujacegoWpisu": "SYSTEM"
+        },
+        {
+          "numerWpisu": 65,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "10.04.2026",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/9189/26/937",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA WROCŁAWIA FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 66,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "10.04.2026",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/9201/26/262",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA WROCŁAWIA FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 67,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "13.04.2026",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/9239/26/433",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA WROCŁAWIA FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        },
+        {
+          "numerWpisu": 68,
+          "opis": "ZMIANA DANYCH W REJESTRZE",
+          "dataWpisu": "23.10.2026",
+          "sygnaturaAktSprawyDotyczacejWpisu": "WR.IX NS-REJ.KRS/21576/26/263",
+          "oznaczenieSaduDokonujacegoWpisu": "SĄD REJONOWY DLA WROCŁAWIA FABRYCZNEJ WE WROCŁAWIU, IX WYDZIAŁ GOSPODARCZY KRAJOWEGO REJESTRU SĄDOWEGO"
+        }
+      ],
+      "stanPozycji": 1
+    },
+    "dane": {
+      "dzial1": {
+        "danePodmiotu": {
+          "formaPrawna": [
+            {
+              "formaPrawna": "SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+              "nrWpisuWprow": "1"
+            }
+          ],
+          "identyfikatory": [
+            {
+              "identyfikatory": {
+                "regon": "93281466900000"
+              },
+              "nrWpisuWykr": "8",
+              "nrWpisuWprow": "2"
+            },
+            {
+              "identyfikatory": {
+                "regon": "93281466900000",
+                "nip": "9121748498"
+              },
+              "nrWpisuWprow": "8"
+            }
+          ],
+          "nazwa": [
+            {
+              "nazwa": "ZAKŁAD WODOCIĄGÓW I KANALIZACJI SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ W OŁAWIE",
+              "nrWpisuWprow": "1"
+            }
+          ],
+          "czyProwadziDzialalnoscZInnymiPodmiotami": [
+            {
+              "czyProwadziDzialalnoscZInnymiPodmiotami": false,
+              "nrWpisuWprow": "1"
+            }
+          ]
+        },
+        "siedzibaIAdres": {
+          "siedziba": [
+            {
+              "kraj": "POLSKA",
+              "wojewodztwo": "DOLNOŚLĄSKIE",
+              "powiat": "OŁAWSKI",
+              "gmina": "OŁAWA",
+              "miejscowosc": "OŁAWA",
+              "nrWpisuWprow": "1"
+            }
+          ],
+          "adres": [
+            {
+              "ulica": "3 MAJA",
+              "nrDomu": "30",
+              "miejscowosc": "OŁAWA",
+              "kodPocztowy": "55-200",
+              "poczta": "OŁAWA",
+              "kraj": "POLSKA",
+              "nrWpisuWprow": "1"
+            }
+          ],
+          "adresPocztyElektronicznej": [],
+          "adresStronyInternetowej": [],
+          "adresDoDoreczenElektronicznychWpisanyDoBAE": [
+            {
+              "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-20000-36695-GCWEJ-23",
+              "nrWpisuWykr": "64",
+              "nrWpisuWprow": "58"
+            },
+            {
+              "adresDoDoreczenElektronicznychWpisanyDoBAE": "AE:PL-20000-36695-GCWEJ-23",
+              "nrWpisuWprow": "64"
+            }
+          ]
+        },
+        "umowaStatut": {
+          "informacjaOZawarciuZmianieUmowyStatutu": [
+            {
+              "pozycja": [
+                {
+                  "zawarcieZmianaUmowyStatutu": "22.07.2002 R. NOTARIUSZ BARBARA KIEŁBOWICZ, KANCELARIA NOTARIALNA W OŁAWIE, REPERTORIUM A NR 5895/2002.\n23.10.2002 R. NOTARIUSZ BARBARA KIEŁBOWICZ, KANCELARIA NOTARIALNA W OŁAWIE, REPERTORIUM A NR 8477/2002\n- ZMIANA PAR. 8 PKT 2.1, PAR. 15 UST. 1 PKT 4, PAR. 39 PKT 4.",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zawarcieZmianaUmowyStatutu": "29 KWIETNIA 2003 ROKU, BEATA ŚLIWA KANCELARIA NOTARIALNA W OŁAWIE PRZY UL. BRZESKIEJ NR 8A/1, REPERTORIUM NR 768/2003;\nZMIANA § 12, SKREŚLA SIĘ §§ 20-26 ORAZ §§ 31 I 32, ZMIANA § 33, DOTYCHCZASOWE §§ 27-41 OZNACZA SIĘ ODPOWIEDNIO NUMERAMI 20-31.",
+                  "nrWpisuWprow": "3"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zawarcieZmianaUmowyStatutu": "15.04.2004R., BEATA ŚLIWA KANCELARIA NOTARIALNA W OŁAWIE UL.RYNEK 1-RATUSZ, REPERTORIUM A NR 1806/2004.\nZMIANA: §12, §13 UST.6, §15 UST.1 PKT 7,11,15, §15 UST.2; W §13 DODAJE SIĘ UST.8; W §15 UST.1 AKTU ZAŁOŻYCIELSKIEGO SPÓŁKI SKREŚLA SIĘ PKT 18, A PUNKTY 19-20 OZNACZA SIĘ ODPOWIEDNIO NUMERAMI 18-20; DOTYCHCZASOWE §20-31 AKTU ZAŁOŻYCIELSKIEGO SPÓŁKI OZNACZA SIĘ ODPOWIEDNIO NUMERAMI 27-36; DODAJE SIĘ §20-26 AKTU ZAŁOŻYCIELSKIEGO SPÓŁKI.",
+                  "nrWpisuWprow": "4"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zawarcieZmianaUmowyStatutu": "19.04.2006 R., REPERTORIUM A NR 1906/2006, NOTARIUSZ BEATA ŚLIWA, KANCELARIA NOTARIALNA W OŁAWIE, UL. RYNEK 1 - RATUSZ:\n- SKREŚLONO § 5 I § 6 OTRZYMUJE NR § 5, ZMIENIONO § 6, § 7, § 11, § 14, § 15, § 19, § 25, § 27 UST. 2, § 32, § 13 SKREŚLONO UST. 8;\n16.06.2006 R., REPERTORIUM A NR 3122/2006, NOTARIUSZ BEATA ŚLIWA, KANCELARIA NOTARIALNA W OŁAWIE, UL. RYNEK 1 - RATUSZ - ZMIENIONO § 8.",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zawarcieZmianaUmowyStatutu": "21.02.2007 R., REPERTORIUM A NR 1080/2007, NOTARIUSZ BEATA ŚLIWA, KANCELARIA NOTARIALNA W OŁAWIE, RYNEK 1 - RATUSZ:\n- W § 15 UST. 1 SKREŚLONO PKT 7, A DOTYCHCZASOWE PUNKTY OZNACZONO NUMERAMI 1 - 20;\n- W § 25 DODAJE SIĘ UST. 10,\n- ZMIANA § 27 UST. 2",
+                  "nrWpisuWprow": "7"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zawarcieZmianaUmowyStatutu": "15.05.2009 R , REPERTORIUM A NR 3950/2009, NOTARIUSZ BEATA ŚLIWA, KANCELARIA NOTARIALNA W OŁAWIE.\n-ZMIENIONO § 7, § 8 UST 1, UST 3\n-DODANO § 8 UST 4\n-SKREŚLONO § 15 UST 1 PKT 17 PUNKTOM 18,19,20 W § 15 UST 1 NADANO NUMERY 17,18,19, \n-SKREŚLONO § 32 UST 3 ZDANIE 2, § 32 UST 4",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zawarcieZmianaUmowyStatutu": "21.10.2025 R., AKT NOTARIALNY REPERTORIUM A NR 2714/2025, NOTARIUSZ BEATA ŚLIWA, KANCELARIA NOTARIALNA W OŁAWIE -ZMIENIONO § 7, § 8 UST 1, § 15 UST.15 I UST.16 ORAZ DODANO § 8 UST. 7 DO UMOWY",
+                  "nrWpisuWprow": "63"
+                }
+              ]
+            }
+          ]
+        },
+        "pozostaleInformacje": {
+          "informacjaOCzasieNaJakiZostalUtworzonyPodmiot": [
+            {
+              "czasNaJakiUtworzonyZostalPodmiot": "NIEOZNACZONY",
+              "nrWpisuWprow": "1"
+            }
+          ],
+          "informacjaOPismieDoOgloszen": [],
+          "informacjaOLiczbieUdzialow": [
+            {
+              "informacjaOLiczbieUdzialow": "WIĘKSZĄ LICZBĘ UDZIAŁÓW",
+              "nrWpisuWprow": "1"
+            }
+          ]
+        },
+        "wspolnicySpzoo": [
+          {
+            "nazwa": [
+              {
+                "nazwa": "GMINA MIEJSKA W OŁAWIE",
+                "nrWpisuWprow": "1"
+              }
+            ],
+            "identyfikator": [
+              {
+                "regon": "93193484500000",
+                "nrWpisuWprow": "1"
+              }
+            ],
+            "posiadaneUdzialy": [
+              {
+                "posiadaneUdzialy": "34.558 (TRZYDZIEŚCI CZTERY TYSIĄCE PIĘĆSET PIĘĆDZIESIĄT OSIEM) UDZIAŁÓW PO 1.000 (TYSIĄC ZŁOTYCH) O ŁĄCZNEJ WARTOŚCI UDZIAŁÓW 34.558.000 (TRZYDZIEŚCI CZTERY MILIONY PIĘĆSET PIĘĆDZIESIĄT OSIEM TYSIĘCY) ZŁOTYCH.",
+                "nrWpisuWykr": "6",
+                "nrWpisuWprow": "1"
+              },
+              {
+                "posiadaneUdzialy": "35.728 (SŁOWNIE: TRZYDZIEŚCI PIĘĆ TYSIĘCY SIEDEMSET DWADZIEŚCIA OSIEM) UDZIAŁÓW O ŁĄCZNEJ WYSOKOŚCI 35.728.000 ZŁ (SŁOWNIE: TRZYDZIEŚCI PIĘĆ MILIONÓW SIEDEMSET DWADZIEŚCIA OSIEM TYSIĘCY ZŁOTYCH)",
+                "nrWpisuWykr": "10",
+                "nrWpisuWprow": "6"
+              },
+              {
+                "posiadaneUdzialy": "36.165 (TRZYDZIEŚCI SZEŚĆ TYSIĘCY STO SZEŚĆDZIESIĄT PIĘĆ) UDZIAŁÓW O ŁĄCZNEJ WYSOKOŚCI 36.165.000 ZŁ (TRZYDZIEŚCI SZEŚĆ MILIONÓW STO SZEŚĆDZIESIĄT PIĘĆ TYSIĘCY) ZŁOTYCH",
+                "nrWpisuWykr": "12",
+                "nrWpisuWprow": "10"
+              },
+              {
+                "posiadaneUdzialy": "37.665 UDZIAŁÓW O ŁĄCZNEJ WYSOKOŚCI 37.665.000 (TRZYDZIEŚCI SIEDEM MILIONÓW SZEŚĆSET SZEŚĆDZIESIĄT PIĘĆ TYSIĘCY) ZŁOTYCH",
+                "nrWpisuWykr": "14",
+                "nrWpisuWprow": "12"
+              },
+              {
+                "posiadaneUdzialy": "39.465 (TRZYDZIEŚCI DZIEWIĘĆ TYSIĘCY CZTERYSTA SZEŚĆDZIESIĄT PIĘĆ) UDZIAŁÓW O ŁĄCZNEJ WYSOKOŚCI 39.465.000 (TRZYDZIEŚCI DZIEWIĘĆ MILIONÓW CZTERYSTA SZEŚĆDZIESIĄT PIĘĆ TYSIĘCY) ZŁOTYCH",
+                "nrWpisuWykr": "17",
+                "nrWpisuWprow": "14"
+              },
+              {
+                "posiadaneUdzialy": "39965 UDZIAŁÓW O ŁĄCZNEJ WYSOKOŚCI 39.965.000,00 ZŁ  (TRZYDZIEŚCI DZIEWIĘĆ MILIONÓW DZIEWIĘĆSET SZEŚĆDZIESIĄT PIĘĆ TYSIĘCY ZŁOTYCH)",
+                "nrWpisuWykr": "18",
+                "nrWpisuWprow": "17"
+              },
+              {
+                "posiadaneUdzialy": "40 465 UDZIAŁÓW O ŁĄCZNEJ WYSOKOŚCI 40.465.000,00 ZŁ (CZTERDZIEŚCI MILIONÓW CZTERYSTA SZEŚĆDZIESIĄT PIĘĆ TYSIĘCY ZŁOTYCH)",
+                "nrWpisuWykr": "19",
+                "nrWpisuWprow": "18"
+              },
+              {
+                "posiadaneUdzialy": "40 965 UDZIAŁÓW O ŁĄCZNEJ WYSOKOŚCI 40.965.000,00 ZŁ (CZTERDZIEŚCI MILIONÓW DZIEWIĘĆSET SZEŚĆDZIESIĄT PIĘĆ TYSIĘCY ZŁOTYCH)",
+                "nrWpisuWykr": "20",
+                "nrWpisuWprow": "19"
+              },
+              {
+                "posiadaneUdzialy": "48 621 UDZIAŁÓW O ŁĄCZNEJ WYSOKOŚCI 48.621.000,00 ZŁ (CZTERDZIEŚCI OSIEM MILIONÓW SZEŚĆSET DWADZIEŚCIA JEDEN TYSIĘCY ZŁOTYCH)",
+                "nrWpisuWykr": "43",
+                "nrWpisuWprow": "20"
+              },
+              {
+                "posiadaneUdzialy": "70896 UDZIAŁÓW O ŁĄCZNEJ WARTOŚCI 70.896.000,00 (SIEDEMDZIESIĄT MILIONÓW OSIEMSET DZIEWIĘĆDZIESIĄT SZEŚĆ TYSIĘCY ZŁOTYCH)",
+                "nrWpisuWykr": "49",
+                "nrWpisuWprow": "43"
+              },
+              {
+                "posiadaneUdzialy": "72975 UDZIAŁÓW O ŁĄCZNEJ WYSOKOŚCI 72.975.000,00 ZŁ (SIEDEMDZIESIĄT DWA MILIONY DZIEWIĘĆSET SIEDEMDZIESIĄT PIĘĆ TYSIĘCY ZŁOTYCH)",
+                "nrWpisuWykr": "63",
+                "nrWpisuWprow": "49"
+              },
+              {
+                "posiadaneUdzialy": "75 499 UDZIAŁÓW O ŁĄCZNEJ WYSOKOŚCI 75.499.000,00 ZŁ (SIEDEMDZIESIĄT PIĘĆ MILIONÓW CZTERYSTA DZIEWIĘĆDZIESIĄT DZIEWIĘĆ TYSIĘCY ZŁOTYCH)",
+                "nrWpisuWprow": "63"
+              }
+            ],
+            "czyPosiadaCaloscUdzialow": [
+              {
+                "czyPosiadaCaloscUdzialow": true,
+                "nrWpisuWprow": "1"
+              }
+            ]
+          }
+        ],
+        "kapital": {
+          "wysokoscKapitaluZakladowego": [
+            {
+              "wartosc": "34558000,00",
+              "waluta": "PLN",
+              "nrWpisuWykr": "6",
+              "nrWpisuWprow": "1"
+            },
+            {
+              "wartosc": "35728000,00",
+              "waluta": "PLN",
+              "nrWpisuWykr": "10",
+              "nrWpisuWprow": "6"
+            },
+            {
+              "wartosc": "36165000,00",
+              "waluta": "PLN",
+              "nrWpisuWykr": "12",
+              "nrWpisuWprow": "10"
+            },
+            {
+              "wartosc": "37665000,00",
+              "waluta": "PLN",
+              "nrWpisuWykr": "14",
+              "nrWpisuWprow": "12"
+            },
+            {
+              "wartosc": "39465000,00",
+              "waluta": "PLN",
+              "nrWpisuWykr": "19",
+              "nrWpisuWprow": "14"
+            },
+            {
+              "wartosc": "40965000,00",
+              "waluta": "PLN",
+              "nrWpisuWykr": "20",
+              "nrWpisuWprow": "19"
+            },
+            {
+              "wartosc": "48621000,00",
+              "waluta": "PLN",
+              "nrWpisuWykr": "43",
+              "nrWpisuWprow": "20"
+            },
+            {
+              "wartosc": "70896000,00",
+              "waluta": "PLN",
+              "nrWpisuWykr": "49",
+              "nrWpisuWprow": "43"
+            },
+            {
+              "wartosc": "72975000,00",
+              "waluta": "PLN",
+              "nrWpisuWykr": "63",
+              "nrWpisuWprow": "49"
+            },
+            {
+              "wartosc": "75499000,00",
+              "waluta": "PLN",
+              "nrWpisuWprow": "63"
+            }
+          ],
+          "wniesioneAporty": {
+            "okreslenieWartosciUdzialowObjetychZaAport": [
+              {
+                "pozycja": [
+                  {
+                    "wartosc": "34558000,00",
+                    "waluta": "PLN",
+                    "nrWpisuWprow": "1"
+                  }
+                ]
+              },
+              {
+                "pozycja": [
+                  {
+                    "wartosc": "1170000,00",
+                    "waluta": "PLN",
+                    "nrWpisuWprow": "6"
+                  }
+                ]
+              },
+              {
+                "pozycja": [
+                  {
+                    "wartosc": "437000,00",
+                    "waluta": "PLN",
+                    "nrWpisuWprow": "10"
+                  }
+                ]
+              },
+              {
+                "pozycja": [
+                  {
+                    "wartosc": "7656000,00",
+                    "waluta": "PLN",
+                    "nrWpisuWprow": "20"
+                  }
+                ]
+              },
+              {
+                "pozycja": [
+                  {
+                    "wartosc": "22275000,00",
+                    "waluta": "PLN",
+                    "nrWpisuWprow": "43"
+                  }
+                ]
+              },
+              {
+                "pozycja": [
+                  {
+                    "wartosc": "2079000,00",
+                    "waluta": "PLN",
+                    "nrWpisuWprow": "49"
+                  }
+                ]
+              },
+              {
+                "pozycja": [
+                  {
+                    "wartosc": "2524000,00",
+                    "waluta": "PLN",
+                    "nrWpisuWprow": "63"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "dzial2": {
+        "reprezentacja": [
+          {
+            "nazwaOrganu": [
+              {
+                "nazwaOrganu": "ZARZĄD",
+                "nrWpisuWprow": "1"
+              }
+            ],
+            "sposobReprezentacji": [
+              {
+                "sposobReprezentacji": "1) JEŻELI ZARZĄD JEST JEDNOOSOBOWY:\n- PREZES ZARZĄDU JEDNOOSOBOWO\n2) JEŻELI ZARZĄD JEST WIELOOSOBOWY:\n- DO SKŁADANIA OŚWIADCZEŃ I ZACIĄGANIA ZOBOWIĄZAŃ W IMIENIU SPÓŁKI WYMAGANE JEST WSPÓŁDZIAŁANIE DWÓCH CZŁONKÓW ZARZĄDU ALBO JEDNEGO CZŁONKA ZARZĄDU ŁĄCZNIE Z PROKURENTEM.",
+                "nrWpisuWprow": "1"
+              }
+            ],
+            "sklad": [
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "G*********"
+                    },
+                    "nrWpisuWykr": "4",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "K********",
+                      "imieDrugie": "W*******"
+                    },
+                    "nrWpisuWykr": "4",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "5**********",
+                    "nrWpisuWykr": "4",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "funkcjaWOrganie": [
+                  {
+                    "funkcjaWOrganie": "PREZES ZARZĄDU",
+                    "nrWpisuWykr": "2",
+                    "nrWpisuWprow": "1"
+                  },
+                  {
+                    "funkcjaWOrganie": "CZŁONEK ZARZĄDU",
+                    "nrWpisuWykr": "4",
+                    "nrWpisuWprow": "2"
+                  }
+                ],
+                "czyZawieszona": [
+                  {
+                    "czyZawieszona": false,
+                    "nrWpisuWykr": "4",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "dataZawieszeniaDo": []
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "W*****"
+                    },
+                    "nrWpisuWykr": "7",
+                    "nrWpisuWprow": "2"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "P****"
+                    },
+                    "nrWpisuWykr": "7",
+                    "nrWpisuWprow": "2"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "5**********",
+                    "nrWpisuWykr": "7",
+                    "nrWpisuWprow": "2"
+                  }
+                ],
+                "funkcjaWOrganie": [
+                  {
+                    "funkcjaWOrganie": "PREZES ZARZĄDU",
+                    "nrWpisuWykr": "7",
+                    "nrWpisuWprow": "2"
+                  }
+                ],
+                "czyZawieszona": [
+                  {
+                    "czyZawieszona": false,
+                    "nrWpisuWykr": "7",
+                    "nrWpisuWprow": "2"
+                  }
+                ],
+                "dataZawieszeniaDo": []
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "P*****"
+                    },
+                    "nrWpisuWprow": "7"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "K********"
+                    },
+                    "nrWpisuWprow": "7"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "7**********",
+                    "nrWpisuWprow": "7"
+                  }
+                ],
+                "funkcjaWOrganie": [
+                  {
+                    "funkcjaWOrganie": "PREZES ZARZĄDU",
+                    "nrWpisuWprow": "7"
+                  }
+                ],
+                "czyZawieszona": [
+                  {
+                    "czyZawieszona": false,
+                    "nrWpisuWprow": "7"
+                  }
+                ],
+                "dataZawieszeniaDo": []
+              }
+            ]
+          }
+        ],
+        "organNadzoru": [
+          {
+            "nazwa": [
+              {
+                "nazwa": "RADA NADZORCZA",
+                "nrWpisuWykr": "3",
+                "nrWpisuWprow": "1"
+              }
+            ],
+            "sklad": [
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "R*******"
+                    },
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "A****",
+                      "imieDrugie": "J*******"
+                    },
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "6**********",
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ]
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "K********"
+                    },
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "J**",
+                      "imieDrugie": "K********"
+                    },
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "6**********",
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ]
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "C****"
+                    },
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "K*******",
+                      "imieDrugie": "J*****"
+                    },
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "4**********",
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ]
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "N******",
+                      "nazwiskoIICzlon": "Ś****"
+                    },
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "A*********",
+                      "imieDrugie": "K*******"
+                    },
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "5**********",
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ]
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "K***"
+                    },
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "D******",
+                      "imieDrugie": "T*****"
+                    },
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "6**********",
+                    "nrWpisuWykr": "3",
+                    "nrWpisuWprow": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nazwa": [
+              {
+                "nazwa": "RADA NADZORCZA",
+                "nrWpisuWprow": "4"
+              }
+            ],
+            "sklad": [
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "G*******"
+                    },
+                    "nrWpisuWykr": "16",
+                    "nrWpisuWprow": "4"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "M****",
+                      "imieDrugie": "K********"
+                    },
+                    "nrWpisuWykr": "16",
+                    "nrWpisuWprow": "4"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "6**********",
+                    "nrWpisuWykr": "16",
+                    "nrWpisuWprow": "4"
+                  }
+                ]
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "A*****"
+                    },
+                    "nrWpisuWykr": "65",
+                    "nrWpisuWprow": "4"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "G*******"
+                    },
+                    "nrWpisuWykr": "65",
+                    "nrWpisuWprow": "4"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "5**********",
+                    "nrWpisuWykr": "65",
+                    "nrWpisuWprow": "4"
+                  }
+                ]
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "S**********"
+                    },
+                    "nrWpisuWykr": "29",
+                    "nrWpisuWprow": "4"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "M*****"
+                    },
+                    "nrWpisuWykr": "29",
+                    "nrWpisuWprow": "4"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "4**********",
+                    "nrWpisuWykr": "29",
+                    "nrWpisuWprow": "4"
+                  }
+                ]
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "K*****"
+                    },
+                    "nrWpisuWykr": "65",
+                    "nrWpisuWprow": "16"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "K********",
+                      "imieDrugie": "J**"
+                    },
+                    "nrWpisuWykr": "65",
+                    "nrWpisuWprow": "16"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "4**********",
+                    "nrWpisuWykr": "65",
+                    "nrWpisuWprow": "16"
+                  }
+                ]
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "G*****"
+                    },
+                    "nrWpisuWykr": "44",
+                    "nrWpisuWprow": "29"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "J*******"
+                    },
+                    "nrWpisuWykr": "44",
+                    "nrWpisuWprow": "29"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "7**********",
+                    "nrWpisuWykr": "44",
+                    "nrWpisuWprow": "29"
+                  }
+                ]
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "W****"
+                    },
+                    "nrWpisuWykr": "68",
+                    "nrWpisuWprow": "44"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "M******",
+                      "imieDrugie": "A********"
+                    },
+                    "nrWpisuWykr": "68",
+                    "nrWpisuWprow": "44"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "7**********",
+                    "nrWpisuWykr": "68",
+                    "nrWpisuWprow": "44"
+                  }
+                ]
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "S******"
+                    },
+                    "nrWpisuWprow": "65"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "M****",
+                      "imieDrugie": "Z*******"
+                    },
+                    "nrWpisuWprow": "65"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "6**********",
+                    "nrWpisuWprow": "65"
+                  }
+                ]
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "J********"
+                    },
+                    "nrWpisuWprow": "65"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "J*****"
+                    },
+                    "nrWpisuWprow": "65"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "8**********",
+                    "nrWpisuWprow": "65"
+                  }
+                ]
+              },
+              {
+                "nazwisko": [
+                  {
+                    "nazwisko": {
+                      "nazwiskoICzlon": "P*****"
+                    },
+                    "nrWpisuWprow": "68"
+                  }
+                ],
+                "imiona": [
+                  {
+                    "imiona": {
+                      "imie": "J*****"
+                    },
+                    "nrWpisuWprow": "68"
+                  }
+                ],
+                "identyfikator": [
+                  {
+                    "pesel": "8**********",
+                    "nrWpisuWprow": "68"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "prokurenci": [
+          {
+            "nazwisko": [
+              {
+                "nazwisko": {
+                  "nazwiskoICzlon": "P********"
+                },
+                "nrWpisuWykr": "66",
+                "nrWpisuWprow": "4"
+              }
+            ],
+            "imiona": [
+              {
+                "imiona": {
+                  "imie": "J******",
+                  "imieDrugie": "A*****"
+                },
+                "nrWpisuWykr": "66",
+                "nrWpisuWprow": "4"
+              }
+            ],
+            "identyfikator": [
+              {
+                "pesel": "6**********",
+                "nrWpisuWykr": "66",
+                "nrWpisuWprow": "4"
+              }
+            ],
+            "rodzajProkury": [
+              {
+                "rodzajProkury": "SAMOISTNA",
+                "nrWpisuWykr": "66",
+                "nrWpisuWprow": "4"
+              }
+            ]
+          }
+        ]
+      },
+      "dzial3": {
+        "przedmiotDzialalnosci": {
+          "przedmiotPrzewazajacejDzialalnosci": [
+            {
+              "pozycja": [
+                {
+                  "opis": "ODPROWADZANIE I OCZYSZCZANIE ŚCIEKÓW",
+                  "kodDzial": "37",
+                  "kodKlasa": "00",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "63",
+                  "nrWpisuWprow": "38"
+                },
+                {
+                  "opis": "POBÓR, UZDATNIANIE I DOSTARCZANIE WODY",
+                  "kodDzial": "36",
+                  "kodKlasa": "00",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWprow": "63"
+                }
+              ]
+            }
+          ],
+          "przedmiotPozostalejDzialalnosci": [
+            {
+              "pozycja": [
+                {
+                  "opis": "POBÓR I UZDATNIANIE WODY DLA MIESZKAŃ, INSTYTUCJI, ZAKŁADÓW KOMUNALNYCH, ZAKŁADÓW PRODUKCYJNYCH I DLA INNYCH UŻYTKOWNIKÓW",
+                  "kodDzial": "41",
+                  "kodKlasa": "00",
+                  "kodPodklasa": "A",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "DZIAŁALNOŚĆ USŁUGOWA W ZAKRESIE ROZPROWADZANIA WODY",
+                  "kodDzial": "41",
+                  "kodKlasa": "00",
+                  "kodPodklasa": "B",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "USŁUGI SANITARNE I POKREWNE",
+                  "kodDzial": "90",
+                  "kodKlasa": "00",
+                  "kodPodklasa": "C",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "ODPROWADZENIE ŚCIEKÓW W TYM:\n- ODPROWADZANIE ŚCIEKÓW BYTOWO - GOSPODARCZYCH DO URZĄDZEŃ KANALIZACYJNYCH;\n- OCZYSZCZANIE ŚCIEKÓW PRZEZ I ROZCIEŃCZENIE, CEDZENIE, FILTROWANIE, SEDYMENTACJĘ, CHEMICZNE STRĄCANIE OSADÓW LUB OCZYSZCZANIE W KOMORACH OSADU CZYNNEGO I NA ZŁOŻACH BIOLOGICZNYCH ALBO INNYMI METODAMI;\n- UTRZYMANIE I KONSERWACJA URZĄDZEŃ KANALIZACYJNYCH\n- OCZYSZCZANIE WODY Z BASENÓW KĄPIELOWYCH I PRZEMYSŁOWEJ WODY OBIEGOWEJ ORAZ POZOSTAŁĄ DZIAŁALNOŚĆ ZWIĄZANĄ Z OCZYSZCZANIEM ŚCIEKÓW.",
+                  "kodDzial": "90",
+                  "kodKlasa": "00",
+                  "kodPodklasa": "D",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "DZIAŁALNOŚĆ W ZAKRESIE PROJEKTOWANIA BUDOWLANEGO, TECHNOLOGICZNEGO W ZAKRESIE INŻYNIERII SANITARNEJ I OCHRONY ŚRODOWISKA",
+                  "kodDzial": "74",
+                  "kodKlasa": "20",
+                  "kodPodklasa": "A",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "ROBOTY ZIEMNE POLEGAJĄCE NA ODWADNIANIU TERENU, KOPANIU ROWÓW, WYKOPÓW, PRZEMIESZCZANIE ZIEMI",
+                  "kodDzial": "45",
+                  "kodKlasa": "11",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE ROBÓT OGÓLNOBUDOWLANYCH W ZAKRESIE OBIEKTÓW LINIOWYCH, RUROCIĄGÓW",
+                  "kodDzial": "45",
+                  "kodKlasa": "21",
+                  "kodPodklasa": "C",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE ROBÓT OGÓLNOBUDOWLANYCH W ZAKRESIE ROZDZIELCZYCH OBIEKTÓW LINIOWYCH: RUROCIĄGÓW WODNYCH, GAZOWYCH, KANALIZACYJNYCH, POMOCNICZYCH OBIEKTÓW TAKICH JAK PRZEPOMPOWNIE STACJE POMP",
+                  "kodDzial": "45",
+                  "kodKlasa": "21",
+                  "kodPodklasa": "D",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE ROBÓT OGÓLNOBUDOWLANYCH W ZAKRESIE OBIEKTÓW INŻYNIERSKICH TAKICH JAK BASENY KĄPIELOWE, OBIEKTY DO UZDATNIANIA I OCZYSZCZANIA WODY",
+                  "kodDzial": "45",
+                  "kodKlasa": "21",
+                  "kodPodklasa": "F",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE INSTALACJI ELEKTRYCZNYCH BUDYNKÓW I BUDOWLI",
+                  "kodDzial": "45",
+                  "kodKlasa": "31",
+                  "kodPodklasa": "A",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE POZOSTAŁYCH INSTALACJI ELEKTRYCZNYCH",
+                  "kodDzial": "45",
+                  "kodKlasa": "31",
+                  "kodPodklasa": "D",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYNAJEM SPRZĘTU BUDOWLANEGO WRAZ Z OPERATOREM",
+                  "kodDzial": "45",
+                  "kodKlasa": "50",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYNAJEM SAMOCHODÓW CIĘŻAROWYCH WRAZ Z KIEROWCĄ",
+                  "kodDzial": "60",
+                  "kodKlasa": "24",
+                  "kodPodklasa": "C",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE INSTALACJI CENTRALNEGO OGRZEWANIA",
+                  "kodDzial": "45",
+                  "kodKlasa": "33",
+                  "kodPodklasa": "A",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE INSTALACJI WODNO- KANALIZACYJNYCH",
+                  "kodDzial": "45",
+                  "kodKlasa": "33",
+                  "kodPodklasa": "B",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE INSTALACJI GAZOWYCH",
+                  "kodDzial": "45",
+                  "kodKlasa": "33",
+                  "kodPodklasa": "C",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "OBSŁUGA I NAPRAWA POJAZDÓW MECHANICZNYCH",
+                  "kodDzial": "50",
+                  "kodKlasa": "20",
+                  "kodPodklasa": "A",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "SPRZEDAŻ HURTOWA MATERIAŁÓW BUDOWLANYCH I WYPOSAŻENIA SANITARNEGO",
+                  "kodDzial": "51",
+                  "kodKlasa": "53",
+                  "kodPodklasa": "B",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "SPRZEDAŻ HURTOWA ARTYKUŁÓW METALOWYCH ORAZ SPRZĘTU I DODATKOWEGO WYPOSAŻENIA HYDRAULICZNEGO",
+                  "kodDzial": "51",
+                  "kodKlasa": "54",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "BADANIA I ANALIZY TECHNICZNE W TYM: POMIARY I ANALIZY CHEMICZNE I BIOLOGICZNE",
+                  "kodDzial": "74",
+                  "kodKlasa": "30",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "6",
+                  "nrWpisuWprow": "1"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "POBÓR I UZDATNIANIE WODY, Z WYŁĄCZENIEM DZIAŁALNOŚCI USŁUGOWEJ",
+                  "kodDzial": "41",
+                  "kodKlasa": "00",
+                  "kodPodklasa": "A",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "DZIAŁALNOŚĆ USŁUGOWA W ZAKRESIE ROZPROWADZANIA WODY",
+                  "kodDzial": "41",
+                  "kodKlasa": "00",
+                  "kodPodklasa": "B",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "ODPROWADZANIE I OCZYSZCZANIE ŚCIEKÓW",
+                  "kodDzial": "90",
+                  "kodKlasa": "01",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "DZIAŁALNOŚĆ SANITARNA I POKREWNA",
+                  "kodDzial": "90",
+                  "kodKlasa": "03",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "DZIAŁALNOŚĆ W ZAKRESIE PROJEKTOWANIA BUDOWLANEGO, URBANISTYCZNEGO, TECHNOLOGICZNEGO",
+                  "kodDzial": "74",
+                  "kodKlasa": "20",
+                  "kodPodklasa": "A",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "ROZBIÓRKA I BURZENIE OBIEKTÓW BUDOWLANYCH; ROBOTY ZIEMNE",
+                  "kodDzial": "45",
+                  "kodKlasa": "11",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE ROBÓT OGÓLNOBUDOWLANYCH W ZAKRESIE PRZESYŁOWYCH OBIEKTÓW LINIOWYCH: RUROCIĄGÓW, LINII ELEKTROENERGETYCZNYCH, ELEKTROTRAKCYJNYCH I TELEKOMUNIKACYJNYCH",
+                  "kodDzial": "45",
+                  "kodKlasa": "21",
+                  "kodPodklasa": "C",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE ROBÓT OGÓLNOBUDOWLANYCH W ZAKRESIE ROZDZIELCZYCH OBIEKTÓW LINIOWYCH: RUROCIĄGÓW, LINII ELEKTROENERGETYCZNYCH I TELEKOMUNIKACYJNYCH",
+                  "kodDzial": "45",
+                  "kodKlasa": "21",
+                  "kodPodklasa": "D",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE ROBÓT OGÓLNOBUDOWLANYCH W ZAKRESIE OBIEKTÓW INŻYNIERSKICH, GDZIE INDZIEJ NIESKLASYFIKOWANYCH",
+                  "kodDzial": "45",
+                  "kodKlasa": "21",
+                  "kodPodklasa": "F",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE INSTALACJI ELEKTRYCZNYCH BUDYNKÓW I BUDOWLI",
+                  "kodDzial": "45",
+                  "kodKlasa": "31",
+                  "kodPodklasa": "A",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE POZOSTAŁYCH INSTALACJI ELEKTRYCZNYCH",
+                  "kodDzial": "45",
+                  "kodKlasa": "31",
+                  "kodPodklasa": "D",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYNAJEM SPRZĘTU BUDOWLANEGO I BURZĄCEGO Z OBSŁUGĄ OPERATORSKĄ",
+                  "kodDzial": "45",
+                  "kodKlasa": "50",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYNAJEM SAMOCHODÓW CIĘŻAROWYCH Z KIEROWCĄ",
+                  "kodDzial": "60",
+                  "kodKlasa": "24",
+                  "kodPodklasa": "C",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE INSTALACJI CENTRALNEGO OGRZEWANIA I WENTYLACYJNYCH",
+                  "kodDzial": "45",
+                  "kodKlasa": "33",
+                  "kodPodklasa": "A",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE INSTALACJI WODNO- KANALIZACYJNYCH",
+                  "kodDzial": "45",
+                  "kodKlasa": "33",
+                  "kodPodklasa": "B",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE INSTALACJI GAZOWYCH",
+                  "kodDzial": "45",
+                  "kodKlasa": "33",
+                  "kodPodklasa": "C",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "POSADZKARSTWO; TAPETOWANIE I OBLICOWYWANIE ŚCIAN",
+                  "kodDzial": "45",
+                  "kodKlasa": "43",
+                  "kodPodklasa": "A",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "MALOWANIE",
+                  "kodDzial": "45",
+                  "kodKlasa": "44",
+                  "kodPodklasa": "A",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE POZOSTAŁYCH ROBÓT BUDOWLANYCH WYKOŃCZENIOWYCH",
+                  "kodDzial": "45",
+                  "kodKlasa": "45",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "TRANSPORT DROGOWY TOWARÓW POJAZDAMI SPECJALIZOWANYMI",
+                  "kodDzial": "60",
+                  "kodKlasa": "24",
+                  "kodPodklasa": "A",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "TRANSPORT DROGOWY TOWARÓW POJAZDAMI UNIWERSALNYMI",
+                  "kodDzial": "60",
+                  "kodKlasa": "24",
+                  "kodPodklasa": "B",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "KONSERWACJA I NAPRAWA POJAZDÓW SAMOCHODOWYCH",
+                  "kodDzial": "50",
+                  "kodKlasa": "20",
+                  "kodPodklasa": "A",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "SPRZEDAŻ HURTOWA MATERIAŁÓW BUDOWLANYCH I WYPOSAŻENIA SANITARNEGO",
+                  "kodDzial": "51",
+                  "kodKlasa": "53",
+                  "kodPodklasa": "B",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "SPRZEDAŻ HURTOWA WYROBÓW METALOWYCH ORAZ SPRZĘTU I DODATKOWEGO WYPOSAŻENIA HYDRAULICZNEGO I GRZEJNEGO",
+                  "kodDzial": "51",
+                  "kodKlasa": "54",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "OBSŁUGA NIERUCHOMOŚCI, WYNAJEM I USŁUGI ZWIĄZANE Z PROWADZENIEM DZIAŁALNOŚCI GOSPODARCZEJ OBSŁUGA NIERUCHOMOŚCI, OBSŁUGA NIERUCHOMOŚCI NA WŁASNY RACHUNEK (Z WYJĄTKIEM 70.32.Z)",
+                  "kodDzial": "70",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYNAJEM MASZYN I URZĄDZEŃ BUDOWLANYCH",
+                  "kodDzial": "71",
+                  "kodKlasa": "32",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "BADANIA I ANALIZY TECHNICZNE",
+                  "kodDzial": "74",
+                  "kodKlasa": "30",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "11",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "POBÓR, UZDATNIANIE I DOSTARCZANIE WODY",
+                  "kodDzial": "36",
+                  "kodKlasa": "00",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "ODPROWADZANIE I OCZYSZCZANIE ŚCIEKÓW",
+                  "kodDzial": "37",
+                  "kodKlasa": "00",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "DZIAŁALNOŚĆ SANITARNA I POKREWNA",
+                  "kodDzial": "38",
+                  "kodKlasa": "11",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "DZIAŁALNOŚĆ W ZAKRESIE INŻYNIERII I ZWIĄZANE Z NIĄ DORADZTWO TECHNICZNE",
+                  "kodDzial": "71",
+                  "kodKlasa": "12",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "ROZBIÓRKA I BURZENIE OBIEKTÓW BUDOWLANYCH",
+                  "kodDzial": "43",
+                  "kodKlasa": "11",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "PRZYGOTOWANIE TERENU POD BUDOWĘ",
+                  "kodDzial": "43",
+                  "kodKlasa": "12",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE WYKOPÓW I WIERCEŃ GEOLOGICZNO-INŻYNIERSKICH",
+                  "kodDzial": "43",
+                  "kodKlasa": "13",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "ROBOTY ZWIĄZANE Z BUDOWĄ RUROCIĄGÓW PRZESYŁOWYCH I SIECI ROZDZIELCZYCH",
+                  "kodDzial": "42",
+                  "kodKlasa": "21",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "ROBOTY ZWIĄZANE Z BUDOWĄ POZOSTAŁYCH OBIEKTÓW INŻYNIERII LĄDOWEJ I WODNEJ, GDZIE INDZIEJ NIESKLASYFIKOWANE",
+                  "kodDzial": "42",
+                  "kodKlasa": "99",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE INSTALACJI ELEKTRYCZNYCH",
+                  "kodDzial": "43",
+                  "kodKlasa": "21",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYNAJEM SPRZĘTU BUDOWLANEGO I BURZĄCEGO Z OBSŁUGĄ OPERATORSKĄ",
+                  "kodDzial": "43",
+                  "kodKlasa": "99",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYNAJEM SAMOCHODÓW CIĘŻAROWYCH Z KIEROWCĄ",
+                  "kodDzial": "49",
+                  "kodKlasa": "41",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE INSTALACJI WODNO-KANALIZACYJNYCH, CIEPLNYCH, GAZOWYCH I KLIMATYZACYJNYCH",
+                  "kodDzial": "43",
+                  "kodKlasa": "22",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "POSADZKARSTWO; TAPETOWANIE I OBLICOWYWANIE ŚCIAN",
+                  "kodDzial": "43",
+                  "kodKlasa": "33",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "MALOWANIE I SZKLENIE",
+                  "kodDzial": "43",
+                  "kodKlasa": "34",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE POZOSTAŁYCH ROBÓT BUDOWLANYCH WYKOŃCZENIOWYCH",
+                  "kodDzial": "43",
+                  "kodKlasa": "39",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "TRANSPORT DROGOWY TOWARÓW",
+                  "kodDzial": "49",
+                  "kodKlasa": "41",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "KONSERWACJA I NAPRAWA POJAZDÓW SAMOCHODOWYCH, Z WYŁĄCZENIEM MOTOCYKLI",
+                  "kodDzial": "45",
+                  "kodKlasa": "20",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "SPRZEDAŻ HURTOWA DREWNA, MATERIAŁÓW BUDOWLANYCH I WYPOSAŻENIA SANITARNEGO",
+                  "kodDzial": "46",
+                  "kodKlasa": "73",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "SPRZEDAŻ HURTOWA WYROBÓW METALOWYCH ORAZ SPRZĘTU I DODATKOWEGO WYPOSAŻENIA HYDRAULICZNEGO I GRZEJNEGO",
+                  "kodDzial": "46",
+                  "kodKlasa": "74",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYNAJEM I ZARZĄDZANIE NIERUCHOMOŚCIAMI WŁASNYMI LUB DZIERŻAWIONYMI",
+                  "kodDzial": "68",
+                  "kodKlasa": "20",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYNAJEM I DZIERŻAWA MASZYN I URZĄDZEŃ BUDOWLANYCH",
+                  "kodDzial": "77",
+                  "kodKlasa": "32",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "POZOSTAŁE BADANIA I ANALIZY TECHNICZNE",
+                  "kodDzial": "71",
+                  "kodKlasa": "20",
+                  "kodPodklasa": "B",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "GOSPODARKA LEŚNA",
+                  "kodDzial": "02",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "DZIAŁALNOŚĆ USŁUGOWA ZWIĄZANA Z LEŚNICTWEM",
+                  "kodDzial": "02",
+                  "kodKlasa": "40",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "DZIAŁALNOŚĆ ZWIĄZANA Z REKULTYWACJĄ I POZOSTAŁA DZIAŁALNOŚĆ USŁUGOWA ZWIĄZANA Z GOSPODARKĄ ODPADAMI",
+                  "kodDzial": "39",
+                  "kodKlasa": "00",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "POZOSTAŁE SPRZĄTANIE",
+                  "kodDzial": "81",
+                  "kodKlasa": "29",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "38",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "POBÓR, UZDATNIANIE I DOSTARCZANIE WODY",
+                  "kodDzial": "36",
+                  "kodKlasa": "00",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "63",
+                  "nrWpisuWprow": "38"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "PRZYGOTOWANIE TERENU POD BUDOWĘ",
+                  "kodDzial": "43",
+                  "kodKlasa": "12",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWprow": "38"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "DZIAŁALNOŚĆ W ZAKRESIE INŻYNIERII I ZWIĄZANE Z NIĄ DORADZTWO TECHNICZNE",
+                  "kodDzial": "71",
+                  "kodKlasa": "12",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWykr": "63",
+                  "nrWpisuWprow": "38"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "ROBOTY ZWIĄZANE Z BUDOWĄ RUROCIĄGÓW PRZESYŁOWYCH I SIECI ROZDZIELCZYCH",
+                  "kodDzial": "42",
+                  "kodKlasa": "21",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWprow": "38"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "ROBOTY ZWIĄZANE Z BUDOWĄ POZOSTAŁYCH OBIEKTÓW INŻYNIERII LĄDOWEJ I WODNEJ, GDZIE INDZIEJ NIESKLASYFIKOWANE",
+                  "kodDzial": "42",
+                  "kodKlasa": "99",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWprow": "38"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE INSTALACJI ELEKTRYCZNYCH",
+                  "kodDzial": "43",
+                  "kodKlasa": "21",
+                  "nrWpisuWykr": "63",
+                  "nrWpisuWprow": "38"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "POZOSTAŁE BADANIA I ANALIZY TECHNICZNE",
+                  "kodDzial": "71",
+                  "kodKlasa": "20",
+                  "kodPodklasa": "B",
+                  "nrWpisuWykr": "63",
+                  "nrWpisuWprow": "38"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE INSTALACJI WODNO-KANALIZACYJNYCH, CIEPLNYCH, GAZOWYCH I KLIMATYZACYJNYCH",
+                  "kodDzial": "43",
+                  "kodKlasa": "22",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWprow": "38"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "ODPROWADZANIE I OCZYSZCZANIE ŚCIEKÓW",
+                  "kodDzial": "37",
+                  "kodKlasa": "00",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWprow": "63"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "POZOSTAŁE BADANIA I ANALIZY TECHNICZNE",
+                  "kodDzial": "71",
+                  "kodKlasa": "20",
+                  "kodPodklasa": "C",
+                  "nrWpisuWprow": "63"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYKONYWANIE INSTALACJI ELEKTRYCZNYCH",
+                  "kodDzial": "43",
+                  "kodKlasa": "21",
+                  "kodPodklasa": "Z",
+                  "nrWpisuWprow": "63"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "DZIAŁALNOŚĆ W ZAKRESIE INŻYNIERII I ZWIĄZANE Z NIĄ DORADZTWO TECHNICZNE",
+                  "kodDzial": "71",
+                  "kodKlasa": "12",
+                  "nrWpisuWprow": "63"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "opis": "WYTWARZANIE ENERGII ELEKTRYCZNEJ Z POZOSTAŁYCH ŹRÓDEŁ ODNAWIALNYCH",
+                  "kodDzial": "35",
+                  "kodKlasa": "12",
+                  "kodPodklasa": "F",
+                  "nrWpisuWprow": "63"
+                }
+              ]
+            }
+          ]
+        },
+        "wzmiankiOZlozonychDokumentach": {
+          "wzmiankaOZlozeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "21.04.2004",
+                  "zaOkresOdDo": "01.01.2003R.-31.12.2003R.",
+                  "nrWpisuWprow": "4"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "15.06.2005",
+                  "zaOkresOdDo": "01.01.2004 R. - 31.12.2004 R.",
+                  "nrWpisuWprow": "5"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "19.06.2006",
+                  "zaOkresOdDo": "01.01.2005 R. - 31.12.2005 R.",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "26.06.2007",
+                  "zaOkresOdDo": "01.01.2006 - 31.12.2006",
+                  "nrWpisuWprow": "8"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "27.05.2008",
+                  "zaOkresOdDo": "01.01.2007 R. - 31.12.2007 R.",
+                  "nrWpisuWprow": "9"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "29.06.2009",
+                  "zaOkresOdDo": "01.01.2008-31.12.2008",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "12.04.2010",
+                  "zaOkresOdDo": "01.01.2009 R. - 31.12.2009 R.",
+                  "nrWpisuWprow": "13"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "11.05.2011",
+                  "zaOkresOdDo": "01.01.2010 R. - 31.12.2010 R.",
+                  "nrWpisuWprow": "15"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "18.05.2012",
+                  "zaOkresOdDo": "01.01.2011 - 31.12.2011",
+                  "nrWpisuWprow": "16"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "16.04.2013",
+                  "zaOkresOdDo": "01.01.2012 R. - 31.12.2012 R.",
+                  "nrWpisuWprow": "17"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "24.06.2014",
+                  "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013",
+                  "nrWpisuWprow": "21"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "18.06.2015",
+                  "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014",
+                  "nrWpisuWprow": "22"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "25.03.2016",
+                  "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015",
+                  "nrWpisuWprow": "23"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "14.06.2017",
+                  "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016",
+                  "nrWpisuWprow": "24"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "10.05.2018",
+                  "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017",
+                  "nrWpisuWprow": "25"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "04.06.2019",
+                  "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018",
+                  "nrWpisuWprow": "30"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "20.03.2020",
+                  "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019",
+                  "nrWpisuWprow": "34"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "01.04.2021",
+                  "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020",
+                  "nrWpisuWprow": "39"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "06.07.2022",
+                  "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021",
+                  "nrWpisuWprow": "45"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "15.05.2023",
+                  "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022",
+                  "nrWpisuWprow": "50"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "03.06.2024",
+                  "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023",
+                  "nrWpisuWprow": "54"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "16.05.2025",
+                  "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024",
+                  "nrWpisuWprow": "59"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "dataZlozenia": "10.04.2026",
+                  "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025",
+                  "nrWpisuWprow": "67"
+                }
+              ]
+            }
+          ],
+          "wzmiankaOZlozeniuOpiniiBieglegoRewidentaSprawozdaniaZBadania": [
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2003R.-31.12.2003R.",
+                  "nrWpisuWprow": "4"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2004 R. - 31.12.2004 R.",
+                  "nrWpisuWprow": "5"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2005 R. - 31.12.2005 R.",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2006 - 31.12.2006",
+                  "nrWpisuWprow": "8"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2007 R. - 31.12.2007 R.",
+                  "nrWpisuWprow": "9"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2008-31.12.2008",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2009 R. - 31.12.2009 R.",
+                  "nrWpisuWprow": "13"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2010 R. - 31.12.2010 R.",
+                  "nrWpisuWprow": "15"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2011 - 31.12.2011",
+                  "nrWpisuWprow": "16"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2012 R. - 31.12.2012 R.",
+                  "nrWpisuWprow": "17"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013",
+                  "nrWpisuWprow": "21"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014",
+                  "nrWpisuWprow": "22"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015",
+                  "nrWpisuWprow": "23"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016",
+                  "nrWpisuWprow": "24"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017",
+                  "nrWpisuWprow": "26"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018",
+                  "nrWpisuWprow": "31"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019",
+                  "nrWpisuWprow": "37"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020",
+                  "nrWpisuWprow": "40"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021",
+                  "nrWpisuWprow": "46"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022",
+                  "nrWpisuWprow": "51"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023",
+                  "nrWpisuWprow": "55"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024",
+                  "nrWpisuWprow": "60"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025",
+                  "nrWpisuWprow": "67"
+                }
+              ]
+            }
+          ],
+          "wzmiankaOZlozeniuUchwalyPostanowieniaOZatwierdzeniuRocznegoSprawozdaniaFinansowego": [
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "ROK OBROTOWY 2003",
+                  "nrWpisuWprow": "4"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2004 R. - 31.12.2004 R.",
+                  "nrWpisuWprow": "5"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2005 R. - 31.12.2005 R.",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2006 - 31.12.2006",
+                  "nrWpisuWprow": "8"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2007 R. - 31.12.2007 R.",
+                  "nrWpisuWprow": "9"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2008-31.12.2008",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2009 R. - 31.12.2009 R.",
+                  "nrWpisuWprow": "13"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2010 R. - 31.12.2010 R.",
+                  "nrWpisuWprow": "15"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2011 - 31.12.2011",
+                  "nrWpisuWprow": "16"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2012 R. - 31.12.2012 R.",
+                  "nrWpisuWprow": "17"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013",
+                  "nrWpisuWprow": "21"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014",
+                  "nrWpisuWprow": "22"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015",
+                  "nrWpisuWprow": "23"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016",
+                  "nrWpisuWprow": "24"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017",
+                  "nrWpisuWprow": "27"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018",
+                  "nrWpisuWprow": "32"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019",
+                  "nrWpisuWprow": "36"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020",
+                  "nrWpisuWprow": "41"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021",
+                  "nrWpisuWprow": "47"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022",
+                  "nrWpisuWprow": "52"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023",
+                  "nrWpisuWprow": "56"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024",
+                  "nrWpisuWprow": "61"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025",
+                  "nrWpisuWprow": "67"
+                }
+              ]
+            }
+          ],
+          "wzmiankaOZlozeniuSprawozdaniaZDzialalnosci": [
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "ROK OBROTOWY 2003",
+                  "nrWpisuWprow": "4"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2004 R. - 31.12.2004 R.",
+                  "nrWpisuWprow": "5"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2005 R. - 31.12.2005 R.",
+                  "nrWpisuWprow": "6"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2006 - 31.12.2006",
+                  "nrWpisuWprow": "8"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2007 R. - 31.12.2007 R.",
+                  "nrWpisuWprow": "9"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2008-31.12.2008",
+                  "nrWpisuWprow": "11"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2009 R. - 31.12.2009 R.",
+                  "nrWpisuWprow": "13"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2010 R. - 31.12.2010 R.",
+                  "nrWpisuWprow": "15"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2011 - 31.12.2011",
+                  "nrWpisuWprow": "16"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "01.01.2012 R. - 31.12.2012 R.",
+                  "nrWpisuWprow": "17"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2013 DO 31.12.2013",
+                  "nrWpisuWprow": "21"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2014 DO 31.12.2014",
+                  "nrWpisuWprow": "22"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2015 DO 31.12.2015",
+                  "nrWpisuWprow": "23"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2016 DO 31.12.2016",
+                  "nrWpisuWprow": "24"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2017 DO 31.12.2017",
+                  "nrWpisuWprow": "28"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2018 DO 31.12.2018",
+                  "nrWpisuWprow": "33"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2019 DO 31.12.2019",
+                  "nrWpisuWprow": "35"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2020 DO 31.12.2020",
+                  "nrWpisuWprow": "42"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2021 DO 31.12.2021",
+                  "nrWpisuWprow": "48"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2022 DO 31.12.2022",
+                  "nrWpisuWprow": "53"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2023 DO 31.12.2023",
+                  "nrWpisuWprow": "57"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2024 DO 31.12.2024",
+                  "nrWpisuWprow": "62"
+                }
+              ]
+            },
+            {
+              "pozycja": [
+                {
+                  "zaOkresOdDo": "OD 01.01.2025 DO 31.12.2025",
+                  "nrWpisuWprow": "67"
+                }
+              ]
+            }
+          ]
+        },
+        "informacjaODniuKonczacymRokObrotowy": {
+          "dzienKonczacyPierwszyRokObrotowy": [
+            {
+              "dzienKonczacyPierwszyRokObrotowy": "31.12.2015",
+              "nrWpisuWprow": "23"
+            }
+          ]
+        }
+      },
+      "dzial4": {},
+      "dzial5": {},
+      "dzial6": {
+        "rozwiazanieUniewaznienie": {
+          "okreslenieOkolicznosci": []
+        }
+      }
+    }
+  }
+}

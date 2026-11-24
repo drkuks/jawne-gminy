@@ -1,0 +1,41 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets (API keys, e.g. GUS BDL)
+.env
+.env.*
+
+# Source-file archive (file name = SHA-256), outside the repository
+archive/
+
+# Headless browser diagnostics
+*.har
+
+# Frontend
+node_modules/
+
+# OS
+.DS_Store
+
+# Working state and outputs (HTTP cache, rate limits, request logs, data)
+var/
+data/
+.ruff_cache/
+
+# Website build and browser test output
+site/dist/
+test-results/
+playwright-report/
+
+# Local project documents (Polish, kept outside the repository)
+CLAUDE.md
+PLAN.md
+DECYZJE.md
+DESIGN-GUIDELINES.md
+design/
+docs/
+zadania/
+.claude/

@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}Jawne Gminy{% endblock %}</title>
+<meta name="description" content="{% block description %}Budżety gmin i finanse spółek komunalnych z danych Ministerstwa Finansów, GUS i KRS.{% endblock %}">
+<link rel="stylesheet" href="{{ root }}static/tokens.css">
+<link rel="stylesheet" href="{{ root }}static/site.css">
+</head>
+<body class="{% block body_class %}{% endblock %}">
+<a class="skip" href="#tresc">Przejdź do treści</a>
+<header class="top{% block header_class %}{% endblock %}">
+  <div class="wrap top__bar">
+    <a class="logo" href="{{ root }}index.html">Jawne Gminy</a>
+    <nav aria-label="Główna nawigacja">
+      <ul class="nav">
+        <li><a href="{{ root }}gminy.html"{% block nav_gminy %}{% endblock %}>Gminy</a></li>
+        <li><a href="{{ root }}index.html#spolki">Spółki komunalne</a></li>
+        <li><a href="{{ root }}metodologia.html#porownania">Porównania</a></li>
+        <li><a href="{{ root }}dane.html"{% block nav_dane %}{% endblock %}>Dane do pobrania</a></li>
+        <li><a href="{{ root }}metodologia.html"{% block nav_metodologia %}{% endblock %}>Metodologia</a></li>
+      </ul>
+    </nav>
+  </div>
+  {% block hero %}{% endblock %}
+</header>
+<main id="tresc" tabindex="-1">
+{% block content %}{% endblock %}
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <p>Dane: Ministerstwo Finansów (sprawozdania Rb-27S, Rb-28S, Rb-NDS, Rb-Z), GUS Bank Danych Lokalnych (CC BY 4.0), GUGiK PRG, API KRS, Repozytorium Dokumentów Finansowych. Ostatnia aktualizacja danych: {{ model.aktualizacja | day }}.</p>
+    <p><a href="{{ root }}metodologia.html">Metodologia i źródła</a> · <a href="{{ root }}dane.html">Dane do pobrania (CC BY 4.0)</a> · <a href="{{ root }}metodologia.html#dostepnosc">Dostępność</a></p>
+  </div>
+</footer>
+{% block scripts %}{% endblock %}
+</body>
+</html>

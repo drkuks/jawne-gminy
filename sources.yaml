@@ -1,0 +1,140 @@
+# Jawne Gminy data sources. Verified on 23.11.2026.
+# Fields: id, nazwa, url, metoda (api | http | manual), format, okresy, licencja, robots_txt,
+#         limity, klucz, status (dziala | czesciowo | nie_dziala), zastepcze, uwagi, sprawdzono.
+# Initial probes used a temporary script (since removed). Fetching: `jg fetch` / jg.fetch.HttpClient,
+# User-Agent "JawneGminy-bot/0.1 (+https://github.com/drkuks/jawne-gminy)",
+# interval >= 5 s per domain. Findings supplemented with results from okiemnaolawe.
+
+zrodla:
+  - id: S1
+    nazwa: "MF: sprawozdania budżetowe JST (bazy danych)"
+    url: https://www.gov.pl/web/finanse/sprawozdania-budzetowe
+    metoda: http
+    format: "ZIP (II i III kw. 2020: 7z) z plikami DBF dBase III, kodowanie cp1250; słownik JST w XLSX (2019–2021: ZIP/XLS)"
+    okresy: "2018–2026, kwartalnie; wartość roczna = plik 'po IV kwartałach' (dane narastające)"
+    strony_lat:
+      2019: https://www.gov.pl/web/finanse/bazy-danych2
+      2020: https://www.gov.pl/web/finanse/bazy-danych3
+      2021: https://www.gov.pl/web/finanse/bazy-danych4
+      2022: https://www.gov.pl/web/finanse/bazy-danych5
+      2023: https://www.gov.pl/web/finanse/bazy-danych6
+      2024: https://www.gov.pl/web/finanse/bazy-danych7
+      2025: https://www.gov.pl/web/finanse/bazy-danych8
+    sprawozdania: [Rb27S, Rb28S, RbNDS, RbN, Rb30S, Rb34S, RbZ, RbPDP]
+    pliki_przyklad:
+      RbZ_2025_IVkw: https://www.gov.pl/attachment/7ed5e4aa-50a5-46f7-a32e-337675319a8b
+    licencja: "informacja publiczna; ponowne wykorzystywanie wg ustawy z 11.08.2021 o otwartych danych; brak odrębnego regulaminu dla plików (do potwierdzenia przy publikacji)"
+    robots_txt: "User-Agent: * / Allow: / (bez ograniczeń)"
+    limity: "brak opublikowanych; stosujemy 1 zapytanie / 5 s"
+    klucz: false
+    status: dziala
+    uwagi:
+      - "Numer strony 'bazy-danychN' różny w każdym roku: odczytywać ze strony roku, nie zgadywać."
+      - "Pliki pod /attachment/<uuid>; poprawione sprawozdanie = nowy UUID. Brak ETag/Last-Modified."
+      - "Pola wspólne: REGON, WK, PK, GK, GT (TERYT + typ), ROK, KWARTAL, DAT_SKW, WERSJA, NAZWAJST."
+      - "Plik Rb-Z 2025 (ZIP sha256 3948e9336514fc75384e726f74f96d06a635ee3a03d751e59783ae02f4edaf57): 3 012 rekordów: gminy GT=1/2/3 (236 + 1 459 + 718 = 2 413), powiaty GK=00 GT=0 (380, w tym 66 miast na prawach powiatu, PK >= 61), województwa (16), związki JST GT=Z (196 na poziomie gminy + 7 na poziomie powiatu). Związki odfiltrować."
+      - "Miasta na prawach powiatu: jedno sprawozdanie za gminę i powiat, zapisane jako rekord powiatowy (GK=00). 2 413 + 66 = 2 479 jednostek gminnych w 2025 r. (zgodne z TERYT)."
+      - "Właściwy DBF rozpoznawać po zestawie pól, nie po nazwie pliku."
+    sprawdzono: 2026-11-23
+
+  - id: S2
+    nazwa: "GUS Bank Danych Lokalnych, API v1"
+    url: https://bdl.stat.gov.pl/api/v1
+    metoda: api
+    format: JSON
+    okresy: "ludność (zmienna 72305, ogółem) 1995–2025"
+    licencja: "CC BY 4.0"
+    robots_txt: "api.stat.gov.pl: 404; bdl.stat.gov.pl: HTML aplikacji (brak ograniczeń)"
+    limity: "bez klucza: 5/s, 100/15 min, 1 000/12 h, 10 000/7 dni (nagłówki X-Rate-Limit-*); z kluczem X-ClientId 5x więcej"
+    klucz: "opcjonalny (GUS_BDL_KEY w .env); na razie brak"
+    status: dziala
+    uwagi:
+      - "data/by-variable/72305?unit-level=6 daje wszystkie gminy stronami po 100 (ok. 25 zapytań na rok)."
+      - "Id jednostki BDL (12 cyfr) to nie TERYT; mapowanie jak oko/bdl.py: teryt()."
+      - "units?level=6 zwraca 4 198 jednostek, w tym części gmin miejsko-wiejskich (kind 4, 5)."
+      - "attrId 0, 4, 7, 14, 15, 17, 50, 91 = brak danych, nie zero."
+      - "ETag bez cudzysłowów; odesłany w tej postaci w If-None-Match zrywa połączenie (RemoteProtocolError, 24.11.2026). Klient dodaje cudzysłowy (jg/fetch/cache.py); wtedy serwer odpowiada 200."
+    sprawdzono: 2026-11-23
+
+  - id: S3
+    nazwa: "TERYT (GUS, eTERYT)"
+    url: https://eteryt.stat.gov.pl
+    metoda: manual
+    format: "XML/CSV (TERC) za formularzem ASP.NET; API TERYT wymaga rejestracji"
+    okresy: "stan na dzień"
+    licencja: "informacja publiczna"
+    robots_txt: "404"
+    limity: "-"
+    klucz: "API TERYT: konto"
+    status: czesciowo
+    zastepcze: "Słownik JST z MF (XLSX, co rok) + kody WK/PK/GK/GT w DBF MF; kontrolnie BDL units?level=6"
+    uwagi:
+      - "Słownik gmin budujemy ze Słownika JST MF dla każdego roku; zgodny z plikami budżetowymi."
+      - "Typ gminy z kodu GT (1 miejska, 2 wiejska, 3 miejsko-wiejska); miasta na prawach powiatu z PK >= 61."
+    sprawdzono: 2026-11-23
+
+  - id: S4
+    nazwa: "PRG (GUGiK): granice gmin"
+    url: https://mapy.geoportal.gov.pl/wss/service/PZGIK/PRG/WFS/AdministrativeBoundaries
+    metoda: api
+    format: "WFS 2.0 (GML 3.2)"
+    okresy: "stan bieżący"
+    licencja: "dane PZGiK udostępniane bez opłat (art. 40a ust. 2 pkt 1 Prawa geodezyjnego i kartograficznego)"
+    robots_txt: "geoportal.gov.pl: blokuje tylko /wp-admin/ i /?s="
+    limity: "brak opublikowanych; 1 zapytanie / 5 s"
+    klucz: false
+    status: dziala
+    uwagi:
+      - "Potrzebny tylko punkt gminy: liczony z poligonu (punkt wewnętrzny), zapisywany z datą i hashem pliku."
+    sprawdzono: 2026-11-23
+
+  - id: S5
+    nazwa: "API KRS (Ministerstwo Sprawiedliwości)"
+    url: https://api-krs.ms.gov.pl
+    metoda: api
+    format: JSON
+    okresy: "odpis aktualny i pełny (historia wpisów)"
+    endpointy:
+      - "GET /api/krs/OdpisAktualny/{krs}?rejestr=P&format=json"
+      - "GET /api/krs/OdpisPelny/{krs}?rejestr=P&format=json"
+      - "GET /api/Krs/Biuletyn/{RRRR-MM-DD} (zmiany dnia, KRS bez zer wiodących)"
+    licencja: "otwarte dane (art. 4b ust. 2 ustawy o KRS)"
+    robots_txt: "404"
+    limity: "brak opublikowanych; 1 zapytanie / 5 s"
+    klucz: false
+    status: dziala
+    uwagi:
+      - "Wspólnicy: dane.dzial1.wspolnicySpzoo[] tylko dla sp. z o.o.; S.A. nie ma listy akcjonariuszy w KRS (poza jedynym akcjonariuszem); zarząd: dane.dzial2.reprezentacja (nazwiska częściowo maskowane)."
+      - "Brak wyszukiwania po wspólniku: API nie wskazuje spółek gminy."
+      - "Brak ETag; pole dataCzasOdpisu zmienia hash przy każdym pobraniu (hash liczyć bez nagłówka)."
+    sprawdzono: 2026-11-23
+
+  - id: S6
+    nazwa: "Repozytorium Dokumentów Finansowych (RDF)"
+    url: https://rdf-przegladarka.ms.gov.pl
+    metoda: manual
+    format: "XML e-sprawozdań (schemat JednostkaInna), koperty XAdES"
+    okresy: "od 2018"
+    licencja: "informacja publiczna"
+    robots_txt: "403 (strona blokady Imperva/Incapsula)"
+    limity: "-"
+    klucz: false
+    status: nie_dziala
+    zastepcze: "tryb ręczny (pobranie w przeglądarce do archive/manual/rdf/<KRS>/) + wniosek do MS o udostępnienie danych w formie API lub paczek"
+    uwagi:
+      - "Zapora antybotowa Incapsula: zapytanie z jawnym User-Agentem projektu dostaje 403. Wcześniejsze testy w projekcie okiemnaolawe dały ten sam wynik. Bez obchodzenia zabezpieczeń: tryb ręczny i wniosek o udostępnienie danych."
+      - "Kontrola kompletności: lista złożonych sprawozdań z działu 3 odpisu KRS."
+    sprawdzono: 2026-11-23
+
+  - id: S7
+    nazwa: "Identyfikacja spółek komunalnych"
+    url: null
+    metoda: manual
+    format: "-"
+    status: czesciowo
+    decyzja: "dopasowanie REGON wspólnika (KRS) do REGON gminy (Rb-NDS); lista w spolki.yaml"
+    uwagi:
+      - "Żaden rejestr centralny dostępny bez wniosku nie wskazuje spółek z udziałem gmin."
+      - "REGON BIR wyszukuje tylko po REGON/NIP/KRS, nie po formie własności; wymaga klucza."
+      - "Przeszukiwanie wszystkich odpisów KRS (ok. 1 mln numerów przy 1 zapytaniu / 5 s) to ok. 2 miesiące ciągłego ruchu: odrzucone."
+    sprawdzono: 2026-11-23

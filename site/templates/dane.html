@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Dane do pobrania – Jawne Gminy{% endblock %}
+{% block nav_dane %} aria-current="page"{% endblock %}
+{% block content %}
+<div class="wrap section">
+  <h1>Dane do pobrania</h1>
+  <p>Pliki CSV w kodowaniu UTF-8 (pliki powyżej 10 MB w archiwum ZIP), separator przecinek, kropka dziesiętna, bez separatora tysięcy. Brak wartości jest zapisany jako „brak danych” z przyczyną, nigdy jako puste pole ani 0. Licencja: CC BY 4.0 (warunki niżej).</p>
+
+  <h2>Pliki zbiorcze</h2>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: pliki do pobrania">
+  <table>
+    <thead><tr><th scope="col">Plik</th><th scope="col">Zawartość</th><th scope="col" class="num">Wiersze</th><th scope="col" class="num">Rozmiar</th><th scope="col">SHA-256</th></tr></thead>
+    <tbody>
+    {% for p in pliki %}
+      <tr><td><a href="dane/{{ p.nazwa }}" download>{{ p.nazwa }}</a></td><td>{{ p.opis }}</td><td class="num">{{ p.wiersze | number }}</td><td class="num">{{ rozmiar(p.rozmiar) }}</td><td class="mono">{{ p.sha256[:16] }}…</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  </div>
+  <p class="small">Plik każdej gminy: <span class="mono">dane/gmina/&lt;TERYT&gt;.csv</span> (odnośnik „Pobierz CSV” na karcie gminy), kolumny jak w <span class="mono">wartosci.csv</span>.</p>
+
+  <h2 style="margin-top: var(--space-12)">Opis pól</h2>
+  {% for p in pliki %}
+  <h3 style="margin-top: var(--space-6)">{{ p.nazwa }}</h3>
+  <ul>
+    {% for k in p.kolumny %}<li><span class="mono">{{ k }}</span>: {{ pola.get(k, "pole opisane w nagłówku pliku; znaczenie jak w nazwie kolumny") }}</li>{% endfor %}
+  </ul>
+  {% endfor %}
+
+  <h2 id="licencja" style="margin-top: var(--space-12)">Licencja i atrybucja</h2>
+  <p>Dane: Creative Commons Uznanie autorstwa 4.0 (CC BY 4.0), <a href="https://creativecommons.org/licenses/by/4.0/deed.pl">treść licencji</a>. Przy wykorzystaniu podaj: „Jawne Gminy, na podstawie danych Ministerstwa Finansów, GUS, GUGiK i Ministerstwa Sprawiedliwości (KRS)” oraz źródła pierwotne:</p>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: źródła pierwotne i warunki">
+  <table>
+    <thead><tr><th scope="col">Źródło</th><th scope="col">Warunki</th></tr></thead>
+    <tbody>{% for z, w in zrodla_licencja %}<tr><td>{{ z }}</td><td>{{ w }}</td></tr>{% endfor %}</tbody>
+  </table>
+  </div>
+  <p>Kod serwisu: licencja EUPL-1.2.</p>
+</div>
+{% endblock %}

@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+{% set rok = model.rok %}
+{% block title %}{{ g.nazwa }} ({{ g.typ_opis }}): budżet i spółki – Jawne Gminy{% endblock %}
+{% block description %}Budżet gminy {{ g.nazwa }} w latach {{ model.lata[0] }}–{{ model.lata[-1] }}: dochody, wydatki, wydatki majątkowe, zobowiązania, spółki komunalne i porównanie z podobnymi gminami.{% endblock %}
+{% block content %}
+<div class="wrap">
+  <p class="crumbs">{{ g.woj }} / {% if g.mnpp %}miasto na prawach powiatu{% else %}powiat {{ g.powiat }}{% endif %}</p>
+  <div class="head">
+    <div>
+      <h1>{{ g.nazwa }}</h1>
+      <ul class="meta">
+        <li>{{ g.typ_opis }}</li>
+        <li>TERYT <span class="mono">{{ g.teryt }}</span></li>
+        {% set lud = karta.ludnosc %}
+        <li>{% if lud and lud.status == "ok" %}{{ lud.wartosc | number }} mieszkańców (GUS, 31.12.{{ rok }}){% else %}ludność: {{ (lud.status if lud else BRAK) | status_brak }}{% endif %}</li>
+        <li>{{ g.spolki | length }} {{ g.spolki | length | plural("spółka", "spółki", "spółek") }} z udziałem gminy w próbce</li>
+      </ul>
+      {% if g.uwagi %}<p class="note small">{{ g.uwagi }}</p>{% endif %}
+      {% if g.mnpp %}<p class="note small">Miasto na prawach powiatu: sprawozdania obejmują zadania gminy i powiatu. W porównaniach osobna grupa.</p>{% endif %}
+    </div>
+    {% if karta.pozycja %}
+    <div class="mapbox">
+      <img src="../static/mapa.svg" alt="Położenie gminy {{ g.nazwa }} na mapie Polski" width="600" height="{{ charts.MAP_H | int }}">
+      <span class="mapbox__dot" style="left: {{ karta.pozycja[0] }}%; top: {{ karta.pozycja[1] }}%" aria-hidden="true"></span>
+    </div>
+    {% endif %}
+  </div>
+  <nav aria-label="Sekcje karty gminy">
+    <ul class="tabs">
+      <li><a href="#budzet">Budżet</a></li>
+      <li><a href="#spolki">Spółki</a></li>
+      <li><a href="#porownanie">Na tle podobnych gmin</a></li>
+      <li><a href="#dokumenty">Dokumenty źródłowe</a></li>
+      <li><a href="../dane/gmina/{{ g.teryt }}.csv" download>Pobierz CSV ({{ g.nazwa }}, wszystkie lata)</a></li>
+    </ul>
+  </nav>
+</div>
+
+<section class="section" id="budzet" aria-labelledby="h-budzet">
+  <div class="wrap">
+    <h2 id="h-budzet">Budżet w {{ rok }} r.</h2>
+    <p class="small">Rb-27S, Rb-28S, Rb-Z po IV kwartałach {{ rok }} r. (Ministerstwo Finansów). Sumy kontrolowane ze sprawozdaniem Rb-NDS.</p>
+    <ul class="kpis">
+    {% for k in karta.kpi %}
+      <li class="kpi">
+        <p class="kpi__label">{{ k.label }}</p>
+        {% if k.w and k.w.status == "ok" %}
+        <p class="kpi__val">{{ k.w.wartosc | rounded }}</p>
+        <p class="kpi__exact">{{ k.w.wartosc | pln }} · {{ k.w.dokument }}, {{ k.w.lokalizator }} · pobrano {{ k.w.pobrano | day }}</p>
+        {% else %}
+        <p class="kpi__val na">{{ BRAK }}</p>
+        <p class="kpi__exact">{{ (k.w.status if k.w else BRAK) | status_brak }}</p>
+        {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+    {% set proc = karta.proc %}
+    <p class="small" style="margin-top: var(--space-4)">Wydatki majątkowe w {{ rok }} r.: plan {{ karta.plan | wz }}, wykonanie {{ karta.kpi[2].w | wz }}{% if proc and proc.status == "ok" %} ({{ proc.wartosc | percent }} planu){% endif %}.</p>
+
+    <h3 style="margin-top: var(--space-8)">Wydatki majątkowe: plan i wykonanie</h3>
+    <p class="small">mln zł, lata {{ model.lata[0] }}–{{ model.lata[-1] }}</p>
+    <figure class="figure">
+      <ul class="legend"><li><span class="sw sw--plan"></span>plan</li><li><span class="sw sw--wyk"></span>wykonanie</li><li><span class="sw sw--na"></span>brak danych</li></ul>
+      {{ karta.wykres | safe }}
+      <figcaption class="src">Źródło: MF, Rb-28S, suma wierszy grup wydatków 16xx (wydatki majątkowe), plan R1 i wykonanie R4, po IV kwartałach; kontrola z Rb-NDS B2.</figcaption>
+    </figure>
+    <details>
+      <summary>Tabela: wydatki majątkowe {{ model.lata[0] }}–{{ model.lata[-1] }}</summary>
+      <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: wydatki majątkowe">
+      <table>
+        <caption class="sr-only">Wydatki majątkowe gminy {{ g.nazwa }}, plan i wykonanie</caption>
+        <thead><tr><th scope="col">Rok</th><th scope="col" class="num">Plan</th><th scope="col" class="num">Wykonanie</th><th scope="col" class="num">Wykonanie planu</th></tr></thead>
+        <tbody>
+        {% for s in karta.slupki %}
+          {% set p = g.w(s.rok, "wydatki_majatkowe_wykonanie_proc") %}
+          <tr><th scope="row">{{ s.rok }}</th><td class="num">{{ g.w(s.rok, "wydatki_majatkowe_plan") | wz("pln") }}</td><td class="num">{{ g.w(s.rok, "wydatki_majatkowe_wykonanie") | wz("pln") }}</td><td class="num">{{ p | wz("percent") }}</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+      </div>
+    </details>
+  </div>
+</section>
+
+<section class="section section--surface" id="spolki" aria-labelledby="h-spolki">
+  <div class="wrap">
+    <h2 id="h-spolki">Spółki z udziałem gminy</h2>
+    {% if g.spolki %}
+    <ul class="firms">
+    {% for s in g.spolki %}
+      <li class="card firm">
+        <h3>{{ s.nazwa }}</h3>
+        <p class="small mono">KRS {{ s.krs }} · NIP {{ s.nip }}</p>
+        <dl>
+          <dt>Wspólnicy (obecnie)</dt>
+          <dd>{% for w in s.wspolnicy %}{{ w.wspolnik_nazwa }} ({% if w.udzial_proc.startswith(BRAK) %}{{ w.udzial_proc }}{% else %}{{ w.udzial_proc | percent }}{% endif %}){% if not loop.last %}; {% endif %}{% endfor %}</dd>
+          {% for kod, label in [("przychody_netto", "Przychody netto"), ("wynik_netto", "Wynik netto"), ("naklady_inwestycyjne", "Nakłady inwestycyjne")] %}
+          {% set f = s.finanse.get((rok, kod)) %}
+          <dt>{{ label }} {{ rok }}</dt>
+          <dd>{% if f and f.status == "ok" %}{{ f.wartosc | rounded }} <span class="small">({{ f.dokument }}, <span class="mono">{{ f.lokalizator }}</span>, pobrano {{ f.pobrano | day }}, SHA-256 <span class="mono">{{ f.zrodlo_sha256[:12] }}…</span>)</span>{% else %}<span class="na">{{ BRAK }}</span> <span class="small">{{ (f.status if f else "finanse spółek z sprawozdań RDF publikowane z przebiegu lokalnego (pliki pobierane ręcznie)") | status_brak }}</span>{% endif %}</dd>
+          {% endfor %}
+          <dt>Zarząd</dt>
+          <dd>{{ s.zarzad_funkcje }}</dd>
+        </dl>
+        <p class="src">Źródło: API KRS, odpis pełny, stan z {{ s.stan_z_dnia | day }}; sprawozdania finansowe z RDF (tryb ręczny).</p>
+      </li>
+    {% endfor %}
+    </ul>
+    {% else %}
+    <p>{{ BRAK }}: lista spółek komunalnych obejmuje na razie próbkę gmin (Oława, Jelcz-Laskowice, Wrocław). Pełna lista po otrzymaniu wykazu z rejestru REGON (metodologia).</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section" id="porownanie" aria-labelledby="h-por">
+  <div class="wrap">
+    <h2 id="h-por">Na tle podobnych gmin w {{ rok }} r.</h2>
+    {% set first = karta.porownania[0] if karta.porownania else None %}
+    {% if first %}<p>Grupa porównawcza: {{ first.grupa }}{% if first.n and not first.n.startswith(BRAK) %} ({{ first.n }} {{ first.n | int | plural("gmina", "gminy", "gmin") }} z wartością pierwszego wskaźnika){% endif %}. Ta sama definicja wskaźnika dla każdej gminy.</p>{% endif %}
+    <ul class="cmp">
+    {% for r in karta.porownania %}
+      {% set m = metryki[r.kod] %}
+      <li class="cmp__row">
+        <div>
+          <h3>{{ m.name }}</h3>
+          {% if r.status == "ok" %}
+          <p><strong>{{ r.wartosc_d | value(m.unit) }}</strong>; mediana grupy {{ r.mediana_d | value(m.unit) }}; {{ r.polozenie }}.</p>
+          <p class="small">Grupa: {{ r.n }} {{ r.n | int | plural("gmina", "gminy", "gmin") }}; najniższa wartość {{ r.strip.lo | value(m.unit) if r.strip else BRAK }}, pierwszy kwartyl {{ r.q1_d | value(m.unit) }}, trzeci kwartyl {{ r.q3_d | value(m.unit) }}, najwyższa {{ r.strip.hi | value(m.unit) if r.strip else BRAK }}. Wzór: <span class="mono">{{ m.formula }}</span></p>
+          {% else %}
+          <p><span class="na">{{ BRAK }}</span> <span class="small">{{ r.status | status_brak }}</span></p>
+          {% endif %}
+        </div>
+        {% if r.strip and r.pos is not none %}
+        <div class="strip">
+          <img src="../{{ r.strip.plik }}" alt="Rozkład wartości w grupie: od {{ r.strip.lo | value(m.unit) }} do {{ r.strip.hi | value(m.unit) }}" width="600" height="40">
+          <span class="strip__dot" style="left: {{ r.pos }}%" aria-hidden="true"></span>
+        </div>
+        {% endif %}
+      </li>
+    {% else %}
+      <li>{{ BRAK }}: brak porównań dla gminy za {{ rok }} r. (brak danych wejściowych).</li>
+    {% endfor %}
+    </ul>
+    <p class="src" style="margin-top: var(--space-6)">Kropki: gminy z grupy, od najniższej do najwyższej wartości. Duża kropka: {{ g.nazwa }}. Źródło: MF, GUS BDL; wyliczenia według metrics.yaml.</p>
+  </div>
+</section>
+
+<section class="section section--surface" id="dokumenty" aria-labelledby="h-dok">
+  <div class="wrap">
+    <h2 id="h-dok">Dokumenty źródłowe</h2>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: dokumenty źródłowe">
+    <table>
+      <caption class="sr-only">Dokumenty, z których pochodzą wartości na tej stronie</caption>
+      <thead><tr><th scope="col">Dokument</th><th scope="col">Pobrano</th><th scope="col">SHA-256</th></tr></thead>
+      <tbody>
+      {% for sha, d in karta.dokumenty %}
+        <tr><td>{{ d[0] }}</td><td class="mono">{{ d[1] | day }}</td><td class="mono">{{ sha[:16] }}…</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    </div>
+  </div>
+</section>
+{% endblock %}

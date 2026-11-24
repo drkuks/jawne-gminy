@@ -1,0 +1,260 @@
+# Jawne Gminy indicator definitions. Schema: jg/metrics.py. One definition for all gminy.
+# `fact`: value taken directly from a report position (`sources[].locator`).
+# `derived`: formula over other indicators (`formula`, `inputs`); the result is stored with formula and inputs.
+# Check: totals from Rb-27S / Rb-28S must match Rb-NDS for the same gmina
+# (tolerance 0.01 zł); a mismatch = `brak danych` with the reason (jg/mf_rb.py: bilansuj).
+grupy:
+  definicja: >-
+    Grupa porównawcza to typ gminy (miejska, miejsko-wiejska, wiejska) i przedział ludności
+    na 31 grudnia tego samego roku. Miasta na prawach powiatu tworzą osobne grupy z własnymi
+    progami, bo ich sprawozdania obejmują zadania gminy i powiatu. Dla grupy liczone są: liczba
+    gmin z wartością, minimum, pierwszy kwartyl, mediana, trzeci kwartyl, maksimum (kwartyle
+    metodą „inclusive”). Grupa z mniej niż `min_n` gminami z wartością nie jest porównywana.
+    Typ gminy: z kodu TERYT obowiązującego w danym roku (kod z pliku MF tego roku).
+  min_n: 5
+  przedzialy_ludnosci: [5000, 10000, 20000, 50000, 100000]
+  mnpp:
+    przedzialy_ludnosci: [100000, 200000, 500000]
+  porownawcze:
+  - dochody_na_mieszkanca
+  - wydatki_na_mieszkanca
+  - wydatki_majatkowe_na_mieszkanca
+  - zobowiazania_na_mieszkanca
+  - zobowiazania_do_dochodow_proc
+  - wydatki_majatkowe_wykonanie_proc
+
+metrics:
+
+- id: dochody_plan
+  name: Dochody ogółem – plan po zmianach
+  kind: fact
+  unit: zł
+  period: rok
+  format: kwota
+  entity_kinds: [gmina]
+  definition: Suma planu dochodów ze wszystkich wierszy sprawozdania Rb-27S po IV kwartałach.
+  sources:
+  - source_id: S1
+    document: Rb-27S (baza MF, po IV kwartałach)
+    locator: suma kolumny R1 (plan) wszystkich wierszy gminy
+    note: kontrola z Rb-NDS, pole AP
+
+- id: dochody_wykonanie
+  name: Dochody ogółem – wykonanie
+  kind: fact
+  unit: zł
+  period: rok
+  format: kwota
+  entity_kinds: [gmina]
+  definition: Suma dochodów wykonanych ze wszystkich wierszy sprawozdania Rb-27S po IV kwartałach.
+  sources:
+  - source_id: S1
+    document: Rb-27S (baza MF, po IV kwartałach)
+    locator: suma kolumny R4 (dochody wykonane) wszystkich wierszy gminy
+    note: kontrola z Rb-NDS, pole AW
+  control_values:
+  - {entity: '0215011', year: 2025, value: 249710017.88, origin: 'Rb-NDS 2025 IV kw., pole AW (wycinek tests/fixtures/mf)'}
+  - {entity: '0264011', year: 2025, value: 8232304918.58, origin: 'Rb-NDS 2025 IV kw., pole AW'}
+
+- id: wydatki_plan
+  name: Wydatki ogółem – plan po zmianach
+  kind: fact
+  unit: zł
+  period: rok
+  format: kwota
+  entity_kinds: [gmina]
+  definition: Suma planu wydatków ze wszystkich wierszy sprawozdania Rb-28S po IV kwartałach.
+  sources:
+  - source_id: S1
+    document: Rb-28S (baza MF, po IV kwartałach)
+    locator: suma kolumny R1 (plan) wszystkich wierszy gminy
+    note: kontrola z Rb-NDS, pole BP
+
+- id: wydatki_wykonanie
+  name: Wydatki ogółem – wykonanie
+  kind: fact
+  unit: zł
+  period: rok
+  format: kwota
+  entity_kinds: [gmina]
+  definition: Suma wydatków wykonanych ze wszystkich wierszy sprawozdania Rb-28S po IV kwartałach.
+  sources:
+  - source_id: S1
+    document: Rb-28S (baza MF, po IV kwartałach)
+    locator: suma kolumny R4 (wydatki wykonane) wszystkich wierszy gminy
+    note: kontrola z Rb-NDS, pole BW
+
+- id: wydatki_majatkowe_plan
+  name: Wydatki majątkowe – plan po zmianach
+  kind: fact
+  unit: zł
+  period: rok
+  format: kwota
+  entity_kinds: [gmina]
+  definition: Suma planu wydatków w grupach 16xx (wydatki majątkowe) sprawozdania Rb-28S po IV kwartałach.
+  sources:
+  - source_id: S1
+    document: Rb-28S (baza MF, po IV kwartałach)
+    locator: suma kolumny R1 wierszy z GRUPA 1600–1699
+    note: kontrola z Rb-NDS, pole B2P; kryterium „paragraf 6xxx” daje inne sumy
+
+- id: wydatki_majatkowe_wykonanie
+  name: Wydatki majątkowe – wykonanie
+  kind: fact
+  unit: zł
+  period: rok
+  format: kwota
+  entity_kinds: [gmina]
+  definition: Suma wydatków wykonanych w grupach 16xx (wydatki majątkowe) sprawozdania Rb-28S po IV kwartałach.
+  sources:
+  - source_id: S1
+    document: Rb-28S (baza MF, po IV kwartałach)
+    locator: suma kolumny R4 wierszy z GRUPA 1600–1699
+    note: kontrola z Rb-NDS, pole B2W
+  control_values:
+  - {entity: '0215011', year: 2025, value: 66839244.24, origin: 'Rb-NDS 2025 IV kw., pole B2W'}
+
+- id: wydatki_majatkowe_wykonanie_proc
+  name: Wykonanie planu wydatków majątkowych
+  kind: derived
+  unit: '%'
+  period: rok
+  format: procent
+  entity_kinds: [gmina]
+  definition: Wydatki majątkowe wykonane jako procent planu po zmianach.
+  formula: wydatki_majatkowe_wykonanie / wydatki_majatkowe_plan * 100
+  inputs: [wydatki_majatkowe_wykonanie, wydatki_majatkowe_plan]
+
+- id: zobowiazania_ogolem
+  name: Zobowiązania ogółem (stan na 31 grudnia)
+  kind: fact
+  unit: zł
+  period: rok
+  format: kwota
+  entity_kinds: [gmina]
+  definition: Kwota zobowiązań według tytułów dłużnych (papiery wartościowe, kredyty i pożyczki, przyjęte depozyty, wymagalne zobowiązania) na koniec roku.
+  sources:
+  - source_id: S1
+    document: Rb-Z (baza MF, po IV kwartałach), część RbZtd
+    locator: wiersz E, kolumna „kwota zadłużenia ogółem” (pole E)
+    note: kontrole E = E1+E2+E3+E4 oraz E = EKO+EZO
+  control_values:
+  - {entity: '0215011', year: 2025, value: 66393081.00, origin: 'Rb-Z 2025 IV kw., pole E (wycinek tests/fixtures/mf)'}
+
+- id: ludnosc
+  name: Ludność (stan na 31 grudnia)
+  kind: fact
+  unit: osoba
+  period: rok
+  format: liczba
+  entity_kinds: [gmina]
+  definition: Liczba ludności gminy ogółem według faktycznego miejsca zamieszkania, stan na 31 grudnia.
+  sources:
+  - source_id: S2
+    document: GUS BDL, zmienna 72305 (ludność ogółem)
+    locator: data/by-variable/72305, poziom 6 (gminy), wartość roku
+  control_values:
+  - {entity: '0215011', year: 2025, value: 32928, origin: 'BDL by-unit 030210415011 (tests/fixtures/bdl)'}
+
+- id: dochody_na_mieszkanca
+  name: Dochody wykonane na mieszkańca
+  kind: derived
+  unit: zł/mieszk.
+  period: rok
+  format: kwota
+  entity_kinds: [gmina]
+  definition: Dochody ogółem wykonane podzielone przez ludność na 31 grudnia tego samego roku.
+  formula: dochody_wykonanie / ludnosc
+  inputs: [dochody_wykonanie, ludnosc]
+
+- id: wydatki_na_mieszkanca
+  name: Wydatki wykonane na mieszkańca
+  kind: derived
+  unit: zł/mieszk.
+  period: rok
+  format: kwota
+  entity_kinds: [gmina]
+  definition: Wydatki ogółem wykonane podzielone przez ludność na 31 grudnia tego samego roku.
+  formula: wydatki_wykonanie / ludnosc
+  inputs: [wydatki_wykonanie, ludnosc]
+
+- id: wydatki_majatkowe_na_mieszkanca
+  name: Wydatki majątkowe wykonane na mieszkańca
+  kind: derived
+  unit: zł/mieszk.
+  period: rok
+  format: kwota
+  entity_kinds: [gmina]
+  definition: Wydatki majątkowe wykonane podzielone przez ludność na 31 grudnia tego samego roku.
+  formula: wydatki_majatkowe_wykonanie / ludnosc
+  inputs: [wydatki_majatkowe_wykonanie, ludnosc]
+
+- id: zobowiazania_na_mieszkanca
+  name: Zobowiązania na mieszkańca
+  kind: derived
+  unit: zł/mieszk.
+  period: rok
+  format: kwota
+  entity_kinds: [gmina]
+  definition: Zobowiązania ogółem na 31 grudnia podzielone przez ludność na 31 grudnia tego samego roku.
+  formula: zobowiazania_ogolem / ludnosc
+  inputs: [zobowiazania_ogolem, ludnosc]
+
+- id: zobowiazania_do_dochodow_proc
+  name: Zobowiązania jako procent dochodów wykonanych
+  kind: derived
+  unit: '%'
+  period: rok
+  format: procent
+  entity_kinds: [gmina]
+  definition: Zobowiązania ogółem na 31 grudnia jako procent dochodów ogółem wykonanych w tym samym roku.
+  formula: zobowiazania_ogolem / dochody_wykonanie * 100
+  inputs: [zobowiazania_ogolem, dochody_wykonanie]
+
+# Spółki komunalne (municipal companies): financial e-sprawozdania from RDF (S6, manual mode).
+
+- id: przychody_netto
+  name: Przychody netto ze sprzedaży i zrównane z nimi
+  kind: fact
+  unit: zł
+  period: rok
+  format: kwota
+  entity_kinds: [spolka]
+  definition: Przychody netto ze sprzedaży produktów, towarów i materiałów oraz zrównane z nimi za rok obrotowy (rachunek zysków i strat, pozycja A).
+  sources:
+  - source_id: S6
+    document: e-sprawozdanie finansowe (XML, JednostkaInna), rachunek zysków i strat
+    locator: RZiS/RZiSKalk/A albo RZiS/RZiSPor/A (KwotaA)
+  control_values:
+  - {entity: '0000136724', year: 2025, value: 40122668.01, origin: 'tests/fixtures/rdf/zwik-2025-esprawozdanie.xml'}
+
+- id: wynik_netto
+  name: Zysk (strata) netto
+  kind: fact
+  unit: zł
+  period: rok
+  format: kwota
+  entity_kinds: [spolka]
+  definition: Wynik finansowy netto roku obrotowego; strata jako wartość ujemna.
+  sources:
+  - source_id: S6
+    document: e-sprawozdanie finansowe (XML), rachunek zysków i strat
+    locator: RZiS/RZiSKalk/O albo RZiS/RZiSPor/L (KwotaA)
+    note: kontrola wynik brutto − podatek − pozostałe obciążenia = wynik netto
+  control_values:
+  - {entity: '0000136724', year: 2025, value: 1803481.99, origin: 'tests/fixtures/rdf/zwik-2025-esprawozdanie.xml'}
+
+- id: naklady_inwestycyjne
+  name: Nakłady inwestycyjne (wydatki na nabycie aktywów trwałych)
+  kind: fact
+  unit: zł
+  period: rok
+  format: kwota
+  entity_kinds: [spolka]
+  definition: Wydatki na nabycie wartości niematerialnych i prawnych oraz rzeczowych aktywów trwałych w roku obrotowym (rachunek przepływów pieniężnych, B.II.1). Spółki bez rachunku przepływów mają brak danych.
+  sources:
+  - source_id: S6
+    document: e-sprawozdanie finansowe (XML), rachunek przepływów pieniężnych
+    locator: RachPrzeplywow/PrzeplywyPosr|PrzeplywyBezp/B/B_II/B_II_1 (KwotaA)
+  control_values:
+  - {entity: '0000136724', year: 2025, value: 1891014.21, origin: 'tests/fixtures/rdf/zwik-2025-esprawozdanie.xml'}

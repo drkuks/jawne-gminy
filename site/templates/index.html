@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% block title %}Jawne Gminy: budżety gmin i spółki komunalne{% endblock %}
+{% block header_class %} top--dark{% endblock %}
+{% block hero %}
+<div class="wrap hero">
+  <div>
+    <p class="hero__eyebrow">BUDŻETY · SPÓŁKI · ŹRÓDŁA</p>
+    <h1>Gminy w liczbach</h1>
+    <p>Wykonanie budżetu każdej gminy i finanse jej spółek. Dane ze sprawozdań Ministerstwa Finansów, GUS i KRS, z odnośnikiem do dokumentu przy każdej wartości.</p>
+    <form class="search" role="search" action="gminy.html" data-search>
+      <label class="sr-only" for="q">Gmina, powiat lub województwo</label>
+      <input id="q" name="q" type="search" autocomplete="off" placeholder="Gmina, powiat lub województwo" aria-describedby="q-hint" aria-controls="wyniki">
+      <button class="btn" type="submit">Szukaj</button>
+    </form>
+    <p id="q-hint" class="small" style="color: var(--line)">Na przykład: Oława, powiat oławski, dolnośląskie.</p>
+    <div aria-live="polite" id="wyniki-status" class="sr-only"></div>
+    <ul class="results" id="wyniki"></ul>
+  </div>
+  <div class="mapbox">
+    <img src="static/mapa-ciemna.svg" alt="Mapa Polski z punktami {{ model.gminy | length }} gmin" width="600" height="{{ charts.MAP_H | int }}">
+    {% if wyrozniona and wyrozniona.lat %}
+    {% set p = charts.map_position(wyrozniona.lat, wyrozniona.lon) %}
+    <span class="mapbox__dot" style="left: {{ p[0] }}%; top: {{ p[1] }}%" aria-hidden="true"></span>
+    <a class="mapbox__label" style="left: {{ p[0] }}%; top: {{ p[1] }}%; color: var(--bg)" href="gmina/{{ wyrozniona.teryt }}.html">{{ wyrozniona.nazwa }}</a>
+    {% endif %}
+  </div>
+</div>
+<div class="wrap">
+  <ul class="stats">
+    <li><strong>{{ model.gminy | length | number }}</strong> gmin (Słownik JST MF, {{ model.rok }} r.)</li>
+    <li><strong>{{ model.spolki_n }}</strong> {{ model.spolki_n | plural("spółka", "spółki", "spółek") }} z udziałem gmin (próbka)</li>
+    <li><strong>{{ model.lata[0] }}–{{ model.lata[-1] }}</strong> lata budżetowe</li>
+    <li><strong>{{ model.aktualizacja | day }}</strong> ostatnia aktualizacja</li>
+  </ul>
+</div>
+<div style="height: var(--space-12)"></div>
+{% endblock %}
+{% block content %}
+<section class="section" id="spolki" aria-labelledby="h-spolki">
+  <div class="wrap">
+    <h2 id="h-spolki">Gminy z danymi o spółkach komunalnych</h2>
+    <p class="small">Spółki komunalne są na razie zebrane dla próbki gmin; pełna lista wymaga danych z rejestru REGON (metodologia).</p>
+    <ul class="cards">
+    {% for g in ze_spolkami %}
+      {% set d = g.w(model.rok, "dochody_wykonanie") %}
+      <li class="card">
+        <h3><a href="gmina/{{ g.teryt }}.html">{{ g.nazwa }}</a></h3>
+        <p class="small">{{ g.typ_opis }}{% if not g.mnpp %} · pow. {{ g.powiat }}{% endif %}</p>
+        <p class="small">Dochody {{ model.rok }}</p>
+        <p><strong>{{ d | wz }}</strong></p>
+        <p class="small">{{ g.spolki | length }} {{ g.spolki | length | plural("spółka", "spółki", "spółek") }}</p>
+      </li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>
+<section class="section section--surface" aria-labelledby="h-docs">
+  <div class="wrap">
+    <h2 id="h-docs">Ostatnio pobrane dokumenty źródłowe</h2>
+    <ul class="docs">
+    {% for d in model.dokumenty %}
+      <li><span class="mono">{{ d.fetched_at | day }}</span><span><span class="t">{{ d.tytul }}</span><br><span class="small mono">{{ "Ministerstwo Finansów" if d.source_id == "S1" else "KRS, Repozytorium Dokumentów Finansowych" }} · SHA-256 {{ d.sha256[:16] }}… · {{ d.size | number }} B</span></span></li>
+    {% endfor %}
+    </ul>
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}<script src="static/szukaj.js" defer></script>{% endblock %}

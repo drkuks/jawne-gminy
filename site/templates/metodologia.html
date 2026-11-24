@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Metodologia i źródła – Jawne Gminy{% endblock %}
+{% block nav_metodologia %} aria-current="page"{% endblock %}
+{% block content %}
+<div class="wrap section">
+  <h1>Metodologia i źródła</h1>
+  <p>Każda wartość pochodzi z dokumentu źródłowego. Przy wartości zapisane są: dokument, pozycja w dokumencie, data pobrania i skrót SHA-256 pliku w archiwum projektu. Brak wartości jest oznaczony jako „brak danych” z przyczyną.</p>
+
+  <h2 id="zrodla">Źródła</h2>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: źródła"><table>
+    <thead><tr><th scope="col">Źródło</th><th scope="col">Format</th><th scope="col">Licencja</th><th scope="col">Stan</th></tr></thead>
+    <tbody>
+    {% for z in zrodla.zrodla %}
+      <tr><td><strong>{{ z.id }}</strong> {{ z.nazwa }}</td><td>{{ z.format }}</td><td>{{ z.licencja | default(BRAK) }}</td><td>{{ z.status }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+
+  <h2 id="wskazniki" style="margin-top: var(--space-12)">Wskaźniki</h2>
+  <div class="table-scroll" tabindex="0" role="region" aria-label="Tabela: wskaźniki"><table>
+    <thead><tr><th scope="col">Wskaźnik</th><th scope="col">Definicja</th><th scope="col">Pozycja w dokumencie albo wzór</th></tr></thead>
+    <tbody>
+    {% for m in model.metrics.metrics %}
+      <tr><td><strong>{{ m.name }}</strong><br><span class="mono">{{ m.id }}</span> · {{ m.unit }}</td><td>{{ m.definition }}</td>
+      <td class="mono">{% if m.kind == "fact" %}{% for s in m.sources %}{{ s.document }}: {{ s.locator }}{% if not loop.last %}<br>{% endif %}{% endfor %}{% else %}{{ m.formula }}{% endif %}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+
+  <h2 id="porownania" style="margin-top: var(--space-12)">Porównania</h2>
+  <p>{{ model.metrics.grupy.definicja }}</p>
+  <p>Progi ludności gmin: {{ model.metrics.grupy.przedzialy_ludnosci | map("number") | join(", ") }}. Progi dla miast na prawach powiatu: {{ model.metrics.grupy.mnpp.przedzialy_ludnosci | map("number") | join(", ") }}.</p>
+  <p>Porównania są mechaniczne: plan a wykonanie, rok do roku, gmina a grupa. Serwis nie układa rankingów.</p>
+
+  <h2 id="kontrola" style="margin-top: var(--space-12)">Kontrola danych</h2>
+  <ul>
+    <li>Sumy z Rb-27S i Rb-28S są porównywane z polami Rb-NDS tej samej gminy (tolerancja 0,01 zł). Niezgodność oznacza „brak danych”.</li>
+    <li>Zobowiązania: suma tytułów dłużnych i suma wierzycieli równa kwocie ogółem w Rb-Z.</li>
+    <li>Sprawozdania finansowe spółek: aktywa równe pasywom, sumy pozycji bilansu, wynik brutto minus podatek równy wynikowi netto.</li>
+  </ul>
+
+  <h2 id="spolki-metoda" style="margin-top: var(--space-12)">Spółki komunalne</h2>
+  <p>Spółka jest komunalna, gdy jej obecnym wspólnikiem jest gmina (REGON wspólnika w KRS równy REGON gminy w sprawozdaniach MF) albo inna spółka komunalna. Lista obejmuje na razie próbkę gmin; pełna lista wymaga wykazu z rejestru REGON (wniosek do GUS). Sprawozdania finansowe z Repozytorium Dokumentów Finansowych są pobierane ręcznie, bo serwis blokuje zapytania automatyczne.</p>
+
+  <h2 id="dostepnosc" style="margin-top: var(--space-12)">Dostępność</h2>
+  <p>Serwis jest projektowany zgodnie z WCAG 2.1 na poziomie AA: nawigacja klawiaturą, widoczny fokus, kontrast tekstu co najmniej 4,5:1, tabela danych przy wykresie planu i wykonania, a przy paskach grup porównawczych opis tekstowy (liczba gmin, wartość najniższa, kwartyle, mediana, wartość najwyższa). Strony są sprawdzane automatycznie (axe-core) przy każdej zmianie.</p>
+</div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Gminy według województw – Jawne Gminy{% endblock %}
+{% block nav_gminy %} aria-current="page"{% endblock %}
+{% block content %}
+<div class="wrap section">
+  <h1>Gminy według województw</h1>
+  <form class="search" role="search" action="gminy.html" data-search>
+    <label class="sr-only" for="q">Gmina, powiat lub województwo</label>
+    <input id="q" name="q" type="search" autocomplete="off" placeholder="Gmina, powiat lub województwo" aria-controls="wyniki">
+    <button class="btn" type="submit">Szukaj</button>
+  </form>
+  <div aria-live="polite" id="wyniki-status" class="sr-only"></div>
+  <ul class="results" id="wyniki"></ul>
+  <p class="small">{{ model.gminy | length | number }} gmin, w tym miasta na prawach powiatu. Stan: Słownik JST MF {{ model.rok }} r.</p>
+  <div class="cols">
+  {% for woj, lista in model.gminy | groupby("woj") %}
+    <h2 class="h3">{{ woj }}</h2>
+    <ul>
+    {% for g in lista | sort(attribute="nazwa") %}
+      <li><a href="gmina/{{ g.teryt }}.html">{{ g.nazwa }}</a> <span class="small">({{ g.typ_opis }})</span></li>
+    {% endfor %}
+    </ul>
+  {% endfor %}
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}<script src="static/szukaj.js" defer></script>{% endblock %}

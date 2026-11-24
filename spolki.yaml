@@ -1,0 +1,23 @@
+# Starting list of spółki komunalne (municipal companies): a sample until GUS replies to the
+# data-access request. Each entry is a candidate; it becomes a municipal company only after
+# verification in the KRS API extract (S5): REGON of a current shareholder = gmina REGON in Rb-NDS
+# (the name is not enough), or a current shareholder is another municipal company on this list.
+# `gmina`: the gmina given here; a mismatch with the gmina established from the extract goes to `powod`.
+# `wskazanie`: how the company was identified (a hint only; the KRS extract is the fact).
+zakres: probka
+spolki:
+- krs: '0000136724'
+  gmina: '0215011'
+  wskazanie: okiemnaolawe sources.yaml (krs_api), zweryfikowane tam 30.10.2026
+- krs: '0000101760'
+  gmina: '0215011'
+  wskazanie: okiemnaolawe sources.yaml (krs_api); wspólnik ZWiK Oława
+- krs: '0000424430'
+  gmina: '0215011'
+  wskazanie: okiemnaolawe sources.yaml (krs_api); wspólnik ZWiK Oława
+- krs: '0000105669'
+  gmina: '0215033'
+  wskazanie: BIP spółki https://bipzgkjelczlaskowice.nv.pl/ (24.11.2026)
+- krs: '0000027173'
+  gmina: '0264011'
+  wskazanie: strona spółki https://sklep.mpk.wroc.pl/polityka-prywatnosci/ (24.11.2026)

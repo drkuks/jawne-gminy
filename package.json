@@ -1,0 +1,8 @@
+{
+  "name": "jawne-gminy-tests",
+  "private": true,
+  "description": "Website test tooling (axe-core for the Playwright tests in tests/test_site_browser.py).",
+  "devDependencies": {
+    "axe-core": "4.10.2"
+  }
+}
